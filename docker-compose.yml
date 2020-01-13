@@ -1,0 +1,18 @@
+version: "3"
+services:
+  app:
+    env_file: .env
+    tty: true
+    stdin_open: true
+    command: "loop"
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+      args:
+        HOST_UID: ${HOST_UID}
+        GO111MODULE: ${GO111MODULE}
+        CGO_ENABLED: ${CGO_ENABLED}
+        GOARCH: ${GOARCH}
+        GOOS: ${GOOS}
+    volumes:
+      - ./:/go/src/revolut-stocks-list
