@@ -1,0 +1,15 @@
+.PHONY: run
+run: ./main.go
+	go run .
+
+.PHONY: build
+build: ./main.go
+	go build -a .
+
+.PHONY: get
+get:
+	go get
+
+.PHONY: tidy
+tidy:
+	go mod tidy

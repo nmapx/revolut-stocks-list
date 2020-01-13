@@ -1,0 +1,16 @@
+.PHONY: docker-clean-images
+docker-clean-images:
+	-docker rmi $$(docker images | grep "<none>" | awk "{print $3}")
+
+.PHONY: docker-clean-containers
+docker-clean-containers:
+	-docker rm $$(docker ps -aq -f status=exited)
+
+.PHONY: docker-clean-volumes
+docker-clean-volumes:
+	-docker volume ls -qf dangling=true | xargs -r docker volume rm
+
+.PHONY: docker-format
+docker-format:
+	-docker rm $$(docker ps -a -q)
+	-docker rmi $$(docker images -q)
