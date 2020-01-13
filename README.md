@@ -1,8 +1,10 @@
 # Revolut Stocks List
 
-Extract Revolut stocks list from the list screenshot(s).
+Extract Revolut stocks list from the list screenshot(s) (use your mobile app for this).
 
 I made this app since there is no official list of all available Revolut stocks.
+
+**You can get a full list at the bottom of this page. It may not be up to date but I will do my best to keep it updated!**
 
 ## Technologies
 
@@ -29,29 +31,65 @@ I made this app since there is no official list of all available Revolut stocks.
 
 ## Basic usage
 
+### Binary
+
+Download a binary for your OS [here](./releases).
+
+```bash
+./app_binary extract
+```
+
 ### Docker
 
 ```bash
-docker exec {CONTAINER_NAME} go run . extract --lang eng --lang pol --input ./this/is/input/file_1.jpg --input ./this/is/input/file_2.jpg --output ./this/is/output/file.csv --whitelist abcDEF
+docker exec {CONTAINER_NAME} go run . extract
 ```
 
 or
 
 ```bash
-docker-compose -p {PROJECT_NAME} exec app go run . extract --lang eng --lang pol --input ./this/is/input/file_1.jpg --input ./this/is/input/file_2.jpg --output ./this/is/output/file.csv --whitelist abcDEF
+docker-compose -p {PROJECT_NAME} exec app go run . extract
 ```
 
-### Binary
+## Advanced usage
+
+### Input files (images/screenshots)
+
+You can specify multiple input files by adding more parameters. By default it's processing 1 file (filepath `./input.jpg`). See example below.
 
 ```bash
-./revolut-stocks-list extract --lang eng --lang pol --input ./this/is/input/file_1.jpg --input ./this/is/input/file_2.jpg --output ./this/is/output/file.csv --whitelist abcDEF
+... extract --input ./this/is/input/file_1.jpg --input ./this/is/input/file_2.jpg --input ./this/is/input/file_3.jpg
 ```
 
-## List
+### Output file (CSV)
 
-As the result you will get a file with all recognized tickers. Company name is not supported yet.
+Script generates 1 output file (including all input files in it). By default it's `./output.csv` - you can change the filepath. See example below.
 
-Below you can find already extracted list. I will update it from time to time.
+```bash
+... extract --output ./this/is/output/file.csv
+```
+
+### Languages
+
+By default only English is being used by the Tesseract library. In order to use also Polish and Russian you can add optional parameters. See example below.
+
+```bash
+... extract --lang eng --lang pol --lang rus
+```
+
+### Whitelist
+
+By default the whitelist includes only A-Z characters (upper-case). You can change it by passing an optional parameter. See example below.
+
+```bash
+... extract --whitelist abcDEF123
+```
+
+## The list
+
+As the result you will get a file with all recognized tickers. Company name is not supported yet (I'm adding it manually).
+
+Below you can find already extracted list of all available stocks. I will update it from time to time.
 
 | Ticker | Company name                                   | 
 |-------|-------------------------------------------------| 
@@ -86,7 +124,7 @@ Below you can find already extracted list. I will update it from time to time.
 | ALLY  | Ally Financial Inc                              | 
 | GOOGL | Alphabet Inc Class A                            | 
 | GOOG  | Alphabet Inc Class C                            | 
-| AABA  | #N/A                                            | 
+| AABA  | --error--                                       | 
 | ATUS  | Altice USA Inc                                  | 
 | MO    | Altria Group Inc                                | 
 | AMZN  | Amazon.com, Inc.                                | 
@@ -175,13 +213,13 @@ Below you can find already extracted list. I will update it from time to time.
 | BOX   | Box Inc                                         | 
 | BRFS  | BRF S.A. (ADR) common stock                     | 
 | BMY   | Bristol-Myers Squibb Co                         | 
-| BMYRT | #N/A                                            | 
+| BMYRT | --error--                                       | 
 | BRX   | Brixmor Property Group Inc                      | 
 | AVGO  | Broadcom Inc                                    | 
 | BAM   | Brookfield Asset Management Inc                 | 
 | BIP   | Brookfield Infrastructure Partners L.P.         | 
 | BEP   | Brookfield Renewable Partners LP                | 
-| BFB   | #N/A                                            | 
+| BFB   | --error--                                       | 
 | BG    | Bunge Ltd                                       | 
 | COG   | Cabot Oil & Gas Corporation                     | 
 | CDNS  | Cadence Design Systems Inc                      | 
@@ -193,7 +231,7 @@ Below you can find already extracted list. I will update it from time to time.
 | CAH   | Cardinal Health Inc                             | 
 | CG    | Carlyle Group Inc                               | 
 | CCL   | Carnival Corp                                   | 
-| CRZO  | #N/A                                            | 
+| CRZO  | --error--                                       | 
 | CARS  | Cars.com Inc                                    | 
 | CAT   | Caterpillar Inc.                                | 
 | CBL   | CBL & Associates Properties, Inc.               | 
@@ -307,7 +345,7 @@ Below you can find already extracted list. I will update it from time to time.
 | EGO   | Eldorado Gold Corp                              | 
 | EA    | Electronic Arts Inc.                            | 
 | ESI   | Element Solutions Inc                           | 
-| LY    | #N/A                                            | 
+| LY    | --error--                                       | 
 | ERJ   | Embraer SA                                      | 
 | EMR   | Emerson Electric Co.                            | 
 | ECA   | Encana Corp                                     | 
@@ -330,7 +368,7 @@ Below you can find already extracted list. I will update it from time to time.
 | EXEL  | Exelixis, Inc.                                  | 
 | EXC   | Exelon Corporation                              | 
 | EXPE  | Expedia Group Inc                               | 
-| STAY  | #N/A                                            | 
+| STAY  | --error--                                       | 
 | XOM   | Exxon Mobil Corporation                         | 
 | FFIV  | F5 Networks, Inc.                               | 
 | FB    | Facebook, Inc. Common Stock                     | 
@@ -444,7 +482,7 @@ Below you can find already extracted list. I will update it from time to time.
 | IBKR  | Interactive Brokers Group, Inc.                 | 
 | ICE   | Intercontinental Exchange Inc                   | 
 | IT    | Gartner Inc                                     | 
-| P     | #N/A                                            | 
+| P     | --error--                                       | 
 | PG    | Procter & Gamble Co                             | 
 | INTU  | Intuit Inc.                                     | 
 | ISRG  | Intuitive Surgical, Inc.                        | 
@@ -627,7 +665,7 @@ Below you can find already extracted list. I will update it from time to time.
 | PINS  | Pinterest Inc                                   | 
 | PXD   | Pioneer Natural Resources                       | 
 | PBI   | Pitney Bowes Inc.                               | 
-| PVTL  | #N/A                                            | 
+| PVTL  | --error--                                       | 
 | PAA   | Plains All American Pipeline, L.P.              | 
 | PLUG  | Plug Power Inc                                  | 
 | PS    | Pluralsight Inc                                 | 
@@ -646,7 +684,7 @@ Below you can find already extracted list. I will update it from time to time.
 | PSTG  | Pure Storage Inc                                | 
 | QTWO  | Q2 Holdings Inc                                 | 
 | QEP   | QEP Resources Inc                               | 
-| QCM   | #N/A                                            | 
+| QCM   | --error--                                       | 
 | QLS   | INDEXIQ ETF TR/IQ HEDGE LONG SHORT              | 
 | PWR   | Quanta Services Inc                             | 
 | QD    | Qudian Inc - ADR                                | 
@@ -698,7 +736,7 @@ Below you can find already extracted list. I will update it from time to time.
 | SCCO  | Southern Copper Corp                            | 
 | LUV   | Southwest Airlines Co                           | 
 | SWN   | Southwestern Energy Company                     | 
-| ONCE  | #N/A                                            | 
+| ONCE  | --error--                                       | 
 | SPLK  | Splunk Inc                                      | 
 | SPOT  | Spotify Technology SA                           | 
 | S     | Sprint Corp                                     | 
@@ -754,7 +792,7 @@ Below you can find already extracted list. I will update it from time to time.
 | TO    | Tower One Wireless Corp                         | 
 | TIF   | Tiffany & Co.                                   | 
 | TSU   | TIM Participacoes SA                            | 
-| TIX   | #N/A                                            | 
+| TIX   | --error--                                       | 
 | T     | AT&T Inc.                                       | 
 | TM    | Toyota Motor Corp                               | 
 | TW    | Tradeweb Markets Inc                            | 
@@ -806,7 +844,7 @@ Below you can find already extracted list. I will update it from time to time.
 | SPCE  | Virgin Galactic Holdings Inc Class A            | 
 | V     | Visa Inc                                        | 
 | VST   | Vistra Energy Corp                              | 
-| MW    | #N/A                                            | 
+| MW    | --error--                                       | 
 | VG    | Vonage Holdings Corp.                           | 
 | WAB   | Westinghouse Air Brake Technologies Corp        | 
 | WBA   | Walgreens Boots Alliance Inc                    | 
@@ -818,7 +856,7 @@ Below you can find already extracted list. I will update it from time to time.
 | WFC   | Wells Fargo & Co                                | 
 | WELL  | Welltower Inc                                   | 
 | WEN   | Wendys Co                                       | 
-| WC    | #N/A                                            | 
+| WC    | --error--                                       | 
 | W     | Wayfair Inc                                     | 
 | WRK   | Westrock Co                                     | 
 | WEX   | WEX Inc                                         | 
