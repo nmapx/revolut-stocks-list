@@ -3,7 +3,10 @@
 .env
 .vscode/
 vendor/
-revolut-stocks-list
+binary
 *.csv
 *.jpg
 !example-input.jpg
+
+cache/*
+!cache/.gitkeep

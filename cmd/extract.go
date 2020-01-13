@@ -49,13 +49,13 @@ var extractCmd = &cobra.Command{
             tmp = imaging.CropAnchor(tmp, int(float64(bounds.Max.X)-float64(bounds.Max.X)/4.8), bounds.Max.Y, imaging.Right)
             tmp = imaging.CropAnchor(tmp, int(float64(bounds.Max.X)/7.2), bounds.Max.Y, imaging.Left)
 
-            if err = imaging.Save(tmp, "./_tmp.jpg"); err != nil {
+            if err = imaging.Save(tmp, "./cache/tmp.jpg"); err != nil {
                 panic(err)
             }
             
             client = gosseract.NewClient()
             defer client.Close()
-            client.SetImage("./_tmp.jpg")
+            client.SetImage("./cache/tmp.jpg")
             client.SetLanguage(lang...)
             client.SetWhitelist(whitelist)
 
