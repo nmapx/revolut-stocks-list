@@ -1,4 +1,4 @@
-# Revolut Stocks List
+# Revolut Stocks List ![GitHub](https://img.shields.io/github/license/nmapx/revolut-stocks-list?style=flat-square) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/nmapx/revolut-stocks-list?style=flat-square) 
 
 Extract Revolut stocks list from the list screenshot(s) (use your mobile app for this).
 
