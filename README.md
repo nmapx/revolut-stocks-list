@@ -1,6 +1,6 @@
 # Revolut Stocks List ![GitHub](https://img.shields.io/github/license/nmapx/revolut-stocks-list?style=flat-square) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/nmapx/revolut-stocks-list?style=flat-square) 
 
-Extract Revolut stocks list from the list screenshot(s) (use your mobile app for this).
+Extract Revolut stocks list from the list screenshot(s) ([example screenshot](./example-input.jpg) - use your mobile app for this).
 
 I made this app since there is no official list of all available Revolut stocks.
 
@@ -51,7 +51,9 @@ Binary not supported yet - use Docker environment.
 
 ### Input files (images/screenshots)
 
-You can specify multiple input files by adding more parameters. By default it's processing 1 file (filepath `./input.jpg`). See example below.
+First of all - check [example screenshot](./example-input.jpg). Your screenshot(s) must follow the pattern!
+
+You can specify multiple input files by adding more parameters. By default it's processing 1 file (filepath `./input.jpg`) which can be very long (complete stock list in 1 screenshot (possible on some mobiles)). See example below.
 
 ```bash
 ... extract --input ./this/is/input/file_1.jpg --input ./this/is/input/file_2.jpg --input ./this/is/input/file_3.jpg
@@ -80,6 +82,10 @@ By default the whitelist includes only A-Z characters (upper-case). You can chan
 ```bash
 ... extract --whitelist abcDEF123
 ```
+
+## License
+
+[MIT License](./LICENSE)
 
 ## The list
 
