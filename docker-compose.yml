@@ -15,4 +15,4 @@ services:
         GOARCH: ${GOARCH}
         GOOS: ${GOOS}
     volumes:
-      - ./:/go/src/revolut-stocks-list
+      - ./:/go/src/github.com/nmapx/revolut-stocks-list

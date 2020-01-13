@@ -6,7 +6,7 @@ ARG CGO_ENABLED
 ARG GOARCH
 ARG GOOS
 
-WORKDIR /go/src/revolut-stocks-list
+WORKDIR /go/src/github.com/nmapx/revolut-stocks-list
 COPY . .
 
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositories && \

@@ -1,6 +1,6 @@
 package main
 
-import "revolut-stocks-list/cmd"
+import "github.com/nmapx/revolut-stocks-list/cmd"
 
 func main() {
     cmd.Execute()

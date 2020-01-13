@@ -1,4 +1,4 @@
-module revolut-stocks-list
+module github.com/nmapx/revolut-stocks-list
 
 go 1.13
 
