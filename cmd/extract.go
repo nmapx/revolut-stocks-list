@@ -3,7 +3,6 @@ package cmd
 import (
 	"bytes"
 	"image"
-	"image/color"
 	"io/ioutil"
 	"log"
 	"strings"
@@ -47,7 +46,6 @@ var extractCmd = &cobra.Command{
 			bounds = src.Bounds()
 
 			log.Println("Transforming the source image")
-			tmp = imaging.New(0, 0, color.NRGBA{0, 0, 0, 0})
 			tmp = imaging.CropAnchor(src, bounds.Max.X, int(float64(bounds.Max.Y)-float64(bounds.Max.X)/2.4), imaging.Bottom)
 			tmp = imaging.CropAnchor(tmp, int(float64(bounds.Max.X)-float64(bounds.Max.X)/4.7), bounds.Max.Y, imaging.Right)
 			tmp = imaging.CropAnchor(tmp, int(float64(bounds.Max.X)/3.3), bounds.Max.Y, imaging.Left)
