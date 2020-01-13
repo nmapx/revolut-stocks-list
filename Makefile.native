@@ -4,7 +4,7 @@ run: ./main.go
 
 .PHONY: build
 build: ./main.go
-	go build -a .
+	go build -a -o binary .
 
 .PHONY: get
 get:
