@@ -31,14 +31,6 @@ I made this app since there is no official list of all available Revolut stocks.
 
 ## Basic usage
 
-### Binary
-
-Download a binary for your OS [here](./releases).
-
-```bash
-./app_binary extract
-```
-
 ### Docker
 
 ```bash
@@ -50,6 +42,10 @@ or
 ```bash
 docker-compose -p {PROJECT_NAME} exec app go run . extract
 ```
+
+### Binary
+
+Binary not supported yet - use Docker environment.
 
 ## Advanced usage
 
