@@ -89,9 +89,15 @@ By default the whitelist includes only A-Z characters (upper-case). You can chan
 
 ## The list
 
-As the result you will get a file with all recognized tickers. Company name is not supported yet (I'm adding it manually).
+As the result you will get a file with all recognized tickers and companies names.
+
+**OCR is still not the most accurate solution so you can find few mistakes there (about 2-3% misidentified tickers).**
 
 Below you can find already extracted list of all available stocks. I will update it from time to time.
+
+*Updated on: 13.01.2020*
+
+*Number of rows: 796*
 
 | Ticker | Company name     | 
 |-------|-------------------| 
