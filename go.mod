@@ -4,7 +4,6 @@ go 1.13
 
 require (
 	github.com/disintegration/imaging v1.6.2
-	github.com/go-resty/resty/v2 v2.1.0
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/otiai10/gosseract/v2 v2.2.4
 	github.com/pelletier/go-toml v1.6.0 // indirect
