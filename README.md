@@ -1,4 +1,4 @@
-# Revolut Stocks List ![GitHub](https://img.shields.io/github/license/nmapx/revolut-stocks-list?style=flat-square) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/nmapx/revolut-stocks-list?style=flat-square) 
+# Revolut Stocks List ![GitHub](https://img.shields.io/github/license/nmapx/revolut-stocks-list?style=flat) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/nmapx/revolut-stocks-list?style=flat) [![Go Report Card](https://goreportcard.com/badge/github.com/nmapx/revolut-stocks-list)](https://goreportcard.com/report/github.com/nmapx/revolut-stocks-list)
 
 Extract Revolut stocks list from the list screenshot(s) ([example screenshot](./example-input.jpg) - use your mobile app for this).
 
