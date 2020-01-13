@@ -14,8 +14,8 @@ var cfgFile string
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
     Use: "revolut-stocks-list",
-    Short: "",
-    Long: ``,
+    Short: "Extract Revolut stocks list from the list screenshot(s).",
+    Long: `Check README for more details!`,
     // Uncomment the following line if your bare application
     // has an action associated with it:
     //	Run: func(cmd *cobra.Command, args []string) { },

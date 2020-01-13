@@ -22,8 +22,8 @@ var (
 
 var extractCmd = &cobra.Command{
 	Use: "extract",
-    Short: "",
-    Long: ``,
+    Short: "Extract stocks tickers from the image.",
+    Long: `Check README for more details!`,
 	Run: func(cmd *cobra.Command, args []string) {
         var err error
         var src image.Image
