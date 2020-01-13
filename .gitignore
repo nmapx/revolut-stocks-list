@@ -1,0 +1,6 @@
+.env
+.vscode/
+vendor/
+revolut-stocks-list
+*.csv
+*.jpg
