@@ -7,7 +7,7 @@ services:
     command: "loop"
     build:
       context: ./
-      dockerfile: ./Dockerfile
+      dockerfile: ./docker/app/Dockerfile
       args:
         HOST_UID: ${HOST_UID}
         GO111MODULE: ${GO111MODULE}

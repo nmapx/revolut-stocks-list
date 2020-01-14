@@ -33,5 +33,5 @@ USER docker
 
 RUN make -f Makefile.native get
 
-ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["./docker/app/entrypoint.sh"]
 CMD ["run"]
