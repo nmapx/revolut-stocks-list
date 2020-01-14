@@ -13,10 +13,11 @@ import (
 )
 
 var (
-	input     []string
-	output    string
-	lang      []string
-	whitelist string
+	input            []string
+	output           string
+	lang             []string
+	whitelistTickers string
+	whitelistNames   string
 )
 
 var extractCmd = &cobra.Command{
@@ -62,11 +63,14 @@ var extractCmd = &cobra.Command{
 			client.SetLanguage(lang...)
 
 			log.Printf("Processing company names")
+			if len(whitelistNames) > 0 {
+				client.SetWhitelist(whitelistNames)
+			}
 			ocrText, _ = client.Text()
 			ocrSliceNames = unify(strings.Split(ocrText, "\n"))
 
 			log.Printf("Processing tickers")
-			client.SetWhitelist(whitelist)
+			client.SetWhitelist(whitelistTickers)
 			ocrText, _ = client.Text()
 			ocrSliceTickers = unify(strings.Split(ocrText, "\n"))
 
@@ -105,7 +109,8 @@ func init() {
 	extractCmd.PersistentFlags().StringSliceVar(&input, "input", inputExample, "Input image eg. './input.jpg' - use multiple times for many files")
 	extractCmd.PersistentFlags().StringVar(&output, "output", "./output.csv", "Output file eg. './output.csv'")
 	extractCmd.PersistentFlags().StringSliceVar(&lang, "lang", langExample, "Languages used by the OCR - use multiple times for many languages")
-	extractCmd.PersistentFlags().StringVar(&whitelist, "whitelist", "QWERTYUIOPASDFGHJKLZXCVBNM", "Whitelist eg. 'abcDEF'")
+	extractCmd.PersistentFlags().StringVar(&whitelistTickers, "whitelist-tickers", "QWERTYUIOPASDFGHJKLZXCVBNM", "Tickers whitelist eg. 'abcDEF123'")
+	extractCmd.PersistentFlags().StringVar(&whitelistNames, "whitelist-names", "", "Companies names whitelist eg. 'abcDEF123'")
 }
 
 func unify(slice []string) []string {

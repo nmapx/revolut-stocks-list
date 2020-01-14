@@ -47,6 +47,10 @@ docker-compose -p {PROJECT_NAME} exec app go run . extract
 
 Binary not supported yet - use Docker environment.
 
+### I'm just looking for the list
+
+Scroll down. The list is as the bottom of this page.
+
 ## Advanced usage
 
 ### Input files (images/screenshots)
@@ -69,7 +73,7 @@ Script generates 1 output file (including all input files in it). By default it'
 
 ### Languages
 
-By default only English is being used by the Tesseract library. In order to use also Polish and Russian you can add optional parameters. See example below.
+By default only English is being installed and used by the Tesseract library. In order to use also other languages like Polish or Russian you can add an optional parameters. You need to install appropriate language library (Tesseract) first (eg. [tesseract-ocr-data-pol](https://pkgs.alpinelinux.org/package/edge/community/x86_64/tesseract-ocr-data-pol)). See example below.
 
 ```bash
 ... extract --lang eng --lang pol --lang rus
@@ -77,10 +81,10 @@ By default only English is being used by the Tesseract library. In order to use 
 
 ### Whitelist
 
-By default the whitelist includes only A-Z characters (upper-case). You can change it by passing an optional parameter. See example below.
+By default whitelist includes only A-Z characters (upper-case) for tickers and whole alphabet for companies names. It's the best setup but you can change it if you want to experiment a bit. See example below.
 
 ```bash
-... extract --whitelist abcDEF123
+... extract --whitelist-tickers abcDEF123 --whitelist-names qwertyQWERTY
 ```
 
 ## License
