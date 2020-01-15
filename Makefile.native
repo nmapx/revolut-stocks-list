@@ -2,6 +2,10 @@
 run: ./main.go
 	go run .
 
+.PHONY: test
+test:
+	go test -v ./...
+
 .PHONY: build
 build: ./main.go
 	go build -a -o binary .

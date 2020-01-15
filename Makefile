@@ -43,3 +43,7 @@ bash:
 .PHONY: app-build
 app-build:
 	docker-compose -p ${PROJECT_NAME} ${COMPOSE_FILES} exec -T app make -f Makefile.native build
+
+.PHONY: app-test
+app-test:
+	docker-compose -p ${PROJECT_NAME} ${COMPOSE_FILES} exec -T app make -f Makefile.native test
