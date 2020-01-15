@@ -17,3 +17,7 @@ get:
 .PHONY: tidy
 tidy:
 	go mod tidy
+
+.PHONY: fmt
+fmt:
+	gofmt -w -s ./

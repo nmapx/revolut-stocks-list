@@ -47,3 +47,7 @@ app-build:
 .PHONY: app-test
 app-test:
 	docker-compose -p ${PROJECT_NAME} ${COMPOSE_FILES} exec -T app make -f Makefile.native test
+
+.PHONY: app-fmt
+app-fmt:
+	docker-compose -p ${PROJECT_NAME} ${COMPOSE_FILES} exec -T app make -f Makefile.native fmt
