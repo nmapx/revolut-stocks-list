@@ -2,17 +2,17 @@
 
 ## Meta
 
-*Updated on: 13.01.2020*
+Updated on: **15.01.2020**
 
-*Number of rows: 796*
+Number of rows: **796**
 
 ## The list
 
 | Ticker | Company name     | 
 |-------|-------------------| 
 | FOXA  | 21st Century F    | 
-| TWOU  | 2u                | 
-| MMM   | am                | 
+| TWOU  | 2U                | 
+| MMM   | 3M                | 
 | WUBA  | 58.com            | 
 | ABT   | Abbott Labs       | 
 | ABBV  | AbbVie            | 
@@ -27,8 +27,8 @@
 | A     | Agilent Techno    | 
 | AGNC  | AGNC Investm      | 
 | AIG   | AIG               | 
-| AL    | Air Lease Corp    | 
-| APD   | Air Products ar   | 
+| AL    | Air Lease Corpe   | 
+| APD   | Air Products an   | 
 | AKS   | AK Steel Holdir   | 
 | AKAM  | Akamai Technc     | 
 | AA    | Alcoa             | 
@@ -36,7 +36,7 @@
 | BABA  | Alibaba           | 
 | ALGN  | Align Technolo    | 
 | ALLT  | Allot Communi     | 
-| MDRX  | Allscripts Heal   | 
+| MDRX  | Allscripts Healt  | 
 | ALL   | Allstate          | 
 | ALLY  | Ally Financial    | 
 | GOOGL | Alphabet (Clas:   | 
@@ -51,10 +51,10 @@
 | AXL   | American Axle     | 
 | AEO   | American Eagle    | 
 | AEP   | American Elect    | 
-| AXP   | American Expr     | 
+| AXP   | American Expre    | 
 | AMH   | American Hom      | 
 | AMT   | American Towe     | 
-| CLD   | Americold Real    | 
+| COLD  | Americold Real    | 
 | AME   | Ametek            | 
 | AMGN  | Amgen             | 
 | FOLD  | Amicus Therap     | 
@@ -63,36 +63,36 @@
 | ADI   | Analog Devices    | 
 | PLAN  | Anaplan           | 
 | ANGI  | ANGI Homeser      | 
-| AU    | AngloGold Ash     | 
-| NLY   | Annaly Capital    | 
+| AU    | AngloGold Ash:    | 
+| NLY   | Annaly Capital !  | 
 | ANSS  | Ansys             | 
-| AM    | Antero Midstre    | 
+| AM    | Antero Midstre:   | 
 | AR    | Antero Resourc    | 
 | ANTM  | Anthem            | 
 | AOS   | AO Smith          | 
 | APA   | Apache            | 
-| ARI   | Apollo Comme:     | 
+| ARI   | Apollo Comme      | 
 | AAPL  | Apple             | 
-| AMAT  | Applied Materi    | 
+| AMAT  | Applied Materiz   | 
 | ATR   | AptarGroup        | 
 | ARMK  | Aramark           | 
-| ADM   | Archer-Daniels    | 
+| ADM   | Archer-Daniels:   | 
 | ARNC  | Arconic           | 
 | ARCC  | Ares Capital      | 
 | ANET  | Arista Network    | 
-| ARR   | ARMOUR Resic      | 
+| ARR   | ARMOUR Resid      | 
 | ARQL  | ArQule            | 
-| ASNA  | Ascena Retail     | 
+| ASNA  | Ascena Retail C   | 
 | ASML  | ASML Holding      | 
-| HOME  | At Home Grou      | 
-| T     | ATRT              | 
+| HOME  | At Home Grouf     | 
+| T     | AT&T              | 
 | ADSK  | Autodesk          | 
 | ATHM  | Autohome          | 
-| ADP   | Automatic Datz    | 
+| ADP   | Automatic Dat:    | 
 | AZO   | AutoZone          | 
 | AVLR  | Avalara           | 
 | AVB   | AvalonBay Con     | 
-| EQH   | AXA Equitable     | 
+| EQH   | AXA Equitable \|  | 
 | AXTA  | Axalta Coating    | 
 | BTG   | B2Gold Corpor:    | 
 | BIDU  | Baidu             | 
@@ -108,14 +108,14 @@
 | BBAR  | BBVA Banco Fr     | 
 | BDX   | Becton Dickins    | 
 | BDC   | Belden            | 
-| BRKB  | Berkshire Hath    | 
+| BRKB  | Berkshire Hath.   | 
 | BBY   | Best Buy          | 
 | BYND  | Beyond Meat       | 
 | BHP   | BHP Billiton      | 
-| BILI  | Bilibili          | 
-| BIO   | Bio-Rad Laborz    | 
+| BIL   | Bilibili          | 
+| BIO   | Bio-Rad Labora    | 
 | BIIB  | Biogen            | 
-| BMRN  | Biomarin Pharr    | 
+| BMRN  | Biomarin Pharn    | 
 | BITA  | Bitauto Holding   | 
 | BJ    | BJ's Wholesale    | 
 | BB    | BlackBerry        | 
@@ -126,78 +126,78 @@
 | BKNG  | Booking           | 
 | BAH   | Booz Allen Han    | 
 | BWA   | BorgWarner        | 
-| BSX   | Boston Scienti    | 
+| BSX   | Boston Scientif   | 
 | BOX   | Box               | 
 | BRFS  | BRF               | 
 | BMY   | Bristol-Myers S   | 
 | BMYRT | Bristol-Myers S   | 
 | BRX   | Brixmor Proper    | 
 | AVGO  | Broadcom          | 
-| BAM   | Brookfield Ass:   | 
-| BIP   | Brookfield Infrz  | 
-| BEP   | Brookfield Ren    | 
+| BAM   | Brookfield Ass¢   | 
+| BIP   | Brookfield Infra  | 
+| BEP   | Brookfield Ren¢   | 
 | BFB   | Brown Forman      | 
 | BG    | Bunge             | 
-| COG   | Cabot 0l & Gas    | 
+| COG   | Cabot Oil & Gas   | 
 | CDNS  | Cadence Desig     | 
 | CZR   | Caesars Entert    | 
 | CRC   | California Reso   | 
-| CPE   | Callon Petrole    | 
+| CPE   | Callon Petroleu   | 
 | CAJ   | Canon             | 
 | COF   | Capital One       | 
 | CAH   | Cardinal Health   | 
 | CG    | Carlyle Group     | 
 | CCL   | Carnival          | 
-| CRZO  | Carrizo Oil & Gz  | 
+| CRZO  | Carrizo Oil & G¢  | 
 | CARS  | Cars.com          | 
 | CAT   | Caterpillar       | 
-| CBL   | CBL & Associal    | 
+| CBL   | CBL & Associat    | 
 | CBOE  | CBOE Holdings     | 
 | CBRE  | CBRE Group        | 
 | CELG  | Celgene           | 
-| CX    | CEMEX S.AB.       | 
+| CX    | CEMEX S.A.B.      | 
 | CVE   | Cenovus Energ     | 
 | CNC   | Centene           | 
 | CDEV  | Centennial Res    | 
 | CNP   | CenterPoint En    | 
 | CTL   | CenturyLink       | 
 | CERN  | Cerner            | 
-| CF    | CF Industries     | 
-| SCHW  | Charles Schwa     | 
+| CF    | CF Industries H   | 
+| SCHW  | Charles Schwal    | 
 | CHTR  | Charter Comm      | 
 | CHKP  | Check Point So    | 
-| SM    | Chemical & Mir    | 
+| SQM   | Chemical & Mir    | 
 | CC    | Chemours Con      | 
 | LNG   | Cheniere Energ    | 
-| CHK   | Chesapeake Er     | 
+| CHK   | Chesapeake En     | 
 | CVX   | Chevron           | 
 | CHWY  | Chewy             | 
 | CHS   | Chico's FAS       | 
 | CIM   | Chimera Invest    | 
 | CHL   | China Mobile      | 
-| ZNH   | China Southerr    | 
+| ZNH   | China Southern    | 
 | CMG   | Chipotle Mexic    | 
 | CIEN  | Ciena Corporat    | 
-| CX    | Cigna             | 
-| XEC   | Cimarex Energ;    | 
+| C     | Cigna             | 
+| XEC   | Cimarex Energy    | 
 | CTAS  | Cintas            | 
 | CSCO  | Cisco             | 
 | C     | Citigroup         | 
 | CFG   | Citizens Financ   | 
 | CTXS  | Citrix Systems    | 
 | CCO   | Clear Channel (   | 
-| CWEN  | Clearway Enerc    | 
+| CWEN  | Clearway Energ    | 
 | CLF   | Cliffs Natural R  | 
 | CLDR  | Cloudera          | 
 | NET   | Cloudflare        | 
 | CLVS  | Clovis Oncolog    | 
-| CME   | CME Group (Cl     | 
-| CNX   | CNX Resource:     | 
+| CME   | CME Group (CI:    | 
+| CNX   | CNX Resources     | 
 | KO    | Coca-Cola         | 
 | CDE   | Coeur Mining      | 
 | CGNX  | Cognex Corpor     | 
 | CTSH  | Cognizant Tect    | 
-| CL    | Colgate-Palmo     | 
+| CL    | Colgate-Palmo!    | 
 | CLNY  | Colony Capital    | 
 | CMCSA | Comcast           | 
 | CMA   | Comerica          | 
@@ -206,11 +206,11 @@
 | SBS   | Companhia de      | 
 | CIG   | Companhia Ene     | 
 | SID   | Companhia Sid     | 
-| BVN   | Compaiiia de      | 
+| BVN   | Compaiiia de M    | 
 | CAG   | ConAgra Foods     | 
-| CX    | Concho Resour     | 
+| CXO   | Concho Resour     | 
 | CNDT  | Conduent          | 
-| CP    | ConacoPhillips    | 
+| COP   | ConocoPhillips    | 
 | ED    | Consolidated E    | 
 | STZ   | Constellation B   | 
 | CLR   | Continental Re:   | 
@@ -221,8 +221,8 @@
 | BAP   | Credicorp         | 
 | CROX  | Crocs             | 
 | CRWD  | CrowdStrike       | 
-| CCX   | Crown Castle      | 
-| CSX   | csx               | 
+| CCI   | Crown Castle      | 
+| CSX   | CSX               | 
 | CVS   | CVS Health        | 
 | CY    | Cypress Semic     | 
 | DAN   | Dana Holding      | 
@@ -241,11 +241,11 @@
 | DISCK | Discovery Com     | 
 | DISH  | DISH Network      | 
 | DHC   | Diversified Hea   | 
-| DOCU  | DocuSign          | 
+| DOCU  | DocusSign         | 
 | DG    | Dollar General    | 
 | DLTR  | Dollar Tree       | 
 | D     | Dominion Ener     | 
-| DPZ   | Domina's Pizza    | 
+| DPZ   | Domino's Pizza    | 
 | DHI   | DR Horton         | 
 | DBX   | Dropbox           | 
 | DUK   | Duke Energy       | 
@@ -258,25 +258,25 @@
 | ECL   | Ecolab            | 
 | EIX   | Edison Internat   | 
 | EW    | Edwards Lifesc    | 
-| ELAN  | Elanco Animal     | 
+| ELAN  | Elanco Animal \|  | 
 | EGO   | Eldorado Gold (   | 
 | EA    | Electronic Arts   | 
-| ESI   | Element Soluti    | 
+| ESI   | Element Solutic   | 
 | LLY   | Eli Lilly         | 
 | ERJ   | Embraer           | 
 | EMR   | Emerson           | 
-| ECA   | Encana Corpor     | 
+| ECA   | Encana Corpor:    | 
 | ET    | Energy Transfe    | 
 | ENIA  | Enersis Americ    | 
 | ENLC  | EnLink Midstre    | 
-| EPD   | Enterprise Proc   | 
+| EPD   | Enterprise Prod   | 
 | EOG   | EOG Resources     | 
 | EQT   | EQT Corporatio    | 
 | EFX   | Equifax           | 
 | EQIX  | Equinix           | 
 | EQNR  | Equinor           | 
 | ETRN  | Equitrans Mids    | 
-| EQR   | Equity Residen    | 
+| EQR   | Equity Resident   | 
 | EL    | Estee Lauder      | 
 | ETSY  | Etsy              | 
 | EB    | Eventbrite        | 
@@ -285,7 +285,7 @@
 | EXEL  | Exelixis          | 
 | EXC   | Exelon            | 
 | EXPE  | Expedia           | 
-| STAY  | Extended Stay.    | 
+| STAY  | Extended Stay .   | 
 | XOM   | Exxon Mobil       | 
 | FFIV  | F5 Networks       | 
 | FB    | Facebook          | 
@@ -314,31 +314,31 @@
 | FTV   | Fortive           | 
 | BEN   | Franklin Resou    | 
 | FCX   | Freeport          | 
-| FREQ  | Frequency The     | 
+| FREQ  | Frequency The!    | 
 | FTR   | Frontier Comm     | 
 | FSK   | FS KKR Capital    | 
 | GME   | GameStop          | 
-| GCI   | Gannett Co        | 
+| GC    | Gannett Co        | 
 | GPS   | GAP               | 
-| T     | Gartner           | 
+| IT    | Gartner           | 
 | GDS   | GDS Holdings      | 
 | GD    | General Dynam     | 
-| GE    | General Electri   | 
+| GE    | General Electric  | 
 | GIS   | General Mills     | 
 | GM    | General Motors    | 
 | GNTX  | Gentex            | 
-| GNW   | Genworth Fina     | 
+| GNW   | Genworth Finar    | 
 | GGB   | Gerdau S.A.       | 
-| GILD  | Gilead Science    | 
+| GILD  | Gilead Science:   | 
 | GNL   | Global Net Lea:   | 
 | GLUU  | Glu Mobile        | 
 | GDDY  | GoDaddy           | 
 | GOL   | Gol Intelligent / | 
-| GFI   | Gold Fields       | 
-| GS    | Goldman Sach      | 
+| GF    | Gold Fields       | 
+| GS    | Goldman Sachs     | 
 | GT    | Goodyear          | 
 | GPRO  | GoPro             | 
-| GPK   | Graphic Packa     | 
+| GPK   | Graphic Packag    | 
 | GO    | Grocery Outlet    | 
 | GRPN  | Groupon           | 
 | GRUB  | GrubHub           | 
@@ -347,18 +347,18 @@
 | SUPV  | Grupo Supervie    | 
 | TV    | Grupo Televisa    | 
 | GES   | Guess             | 
-| GPOR  | Gulfport Energ;   | 
+| GPOR  | Gulfport Energy   | 
 | HRB   | H&R Block         | 
 | HAL   | Halliburton       | 
 | HBI   | Hanesbrands       | 
-| HOG   | Harley-Davids     | 
-| HMY   | Harmony Gold      | 
-| HIG   | Hartford Finan    | 
+| HOG   | Harley-Davidso    | 
+| HMY   | Harmony Gold !    | 
+| HIG   | Hartford Financ   | 
 | HAS   | Hasbro            | 
-| HCA   | HCA Healthcar     | 
+| HCA   | HCA Healthcar:    | 
 | HDB   | HDFC Bank.        | 
 | HL    | Hecla Mining C    | 
-| HEI   | Heico             | 
+| HE    | Heico             | 
 | HSIC  | Henry Schein      | 
 | HLF   | Herbalife         | 
 | HTZ   | Hertz             | 
@@ -373,24 +373,24 @@
 | HD    | Home Depot        | 
 | HMC   | Honda Motor       | 
 | HON   | Honeywell         | 
-| HRL   | Hormel Foods      | 
+| HRL   | Hormel Foods ¢    | 
 | HST   | Host Hotels & \|  | 
 | HPQ   | HP                | 
 | HTHT  | Huazhu Group      | 
 | HUBS  | HubSpot           | 
 | HUM   | Humana            | 
 | HBAN  | Huntington Bar    | 
-| HUN   | Huntsman Cory     | 
-| HCM   | Hutchison Chir    | 
+| HUN   | Huntsman Corj     | 
+| HCM   | Hutchison Chin    | 
 | HUYA  | HUYA              | 
 | H     | Hyatt Hotels      | 
 | IAG   | lamgold Corp      | 
 | IBM   | IBM               | 
 | IBN   | ICICI Bank        | 
 | IDXX  | IDEXX Laboratc    | 
-| IGMS  | IGM Biosciencs    | 
-| T     | Hllinois Tool Wo  | 
-| ILMN  | llumina           | 
+| IGMS  | IGM Bioscience    | 
+| ITW   | Illinois Tool Wo  | 
+| ILMN  | lllumina          | 
 | IMGN  | ImmunoGen         | 
 | INCY  | Incyte            | 
 | INFN  | Infinera Corpor   | 
@@ -399,36 +399,36 @@
 | IBKR  | Interactive Brol  | 
 | ICE   | Intercontinenta   | 
 | IGT   | International G   | 
-| P     | International P:  | 
+| IP    | International P:  | 
 | IPG   | Interpublic Gro   | 
 | INTU  | Intuit            | 
 | ISRG  | Intuitive Surgic  | 
-| Z     | Invesco           | 
+| IVZ   | Invesco           | 
 | IVR   | Invesco Mortg:    | 
 | ISBC  | Investors Banc    | 
 | NVTA  | Invitae Corpora   | 
 | INVH  | Invitation Hom    | 
-| Q     | iQIvI             | 
+| IQ    | iQlyl             | 
 | IRBT  | iRobot            | 
 | IRM   | Iron Mountain     | 
 | ITUB  | Itad Unibanco     | 
 | JNJ   | J&J               | 
-| JP    | J. C. Penney C    | 
+| JCP   | J. C. Penney C¢   | 
 | JBHT  | J.B. Hunt         | 
 | JKHY  | Jack Henry & A    | 
 | JD    | JD.com            | 
 | JEF   | Jefferies Finan   | 
 | JBLU  | JetBlue Airway    | 
-| JKS   | Jinkosolar Hol    | 
+| JKS   | Jinkosolar Holc   | 
 | DE    | John Deere        | 
 | JPM   | JPMorgan          | 
 | JMIA  | Jumia             | 
-| JNPR  | Juniper Networ    | 
+| JNPR  | Juniper Netwol    | 
 | KAR   | KAR Auction S     | 
 | K     | Kellogg's         | 
-| KDP   | Keurig Dr Pepp    | 
+| KDP   | Keurig Dr Pepp!   | 
 | KEY   | KeyCorp.          | 
-| KEYS  | Keysight Techr    | 
+| KEYS  | Keysight Techn    | 
 | KMB   | Kimberly-Clark    | 
 | KIM   | Kimco Realty C    | 
 | KMI   | Kinder Morgan     | 
@@ -436,80 +436,80 @@
 | KKR   | KKR & Co          | 
 | KNX   | Knight-Swift Tr   | 
 | KSS   | Kohl's            | 
-| KOS   | Kosmos Energ;     | 
+| KOS   | Kosmos Energy     | 
 | KHC   | Kraft Heinz       | 
 | KTOS  | Kratos            | 
 | KR    | Kroger Co         | 
 | KT    | KT                | 
 | LB    | L Brands          | 
 | LRCX  | Lam Research      | 
-| LPI   | Laredo Petrole:   | 
-| VS    | Las Vegas San     | 
-| LM    | LATAM Airlines    | 
-| LS    | Lattice Semico    | 
+| LPI   | Laredo Petrolet   | 
+| LVS   | Las Vegas San(    | 
+| LTM   | LATAM Airlines    | 
+| LSCC  | Lattice Semico    | 
 | LDOS  | Leidos Holding    | 
 | LEN   | Lennar            | 
 | LEVI  | Levi Strauss &    | 
-| LXRX  | Lexicon Pharm     | 
+| LXRX  | Lexicon Pharm:    | 
 | LX    | LexinFintech H    | 
 | LPL   | LG Display        | 
-| FWONK | Liberty Media ¢   | 
+| FWONK | Liberty Media C   | 
 | LYV   | Live Nation Ent   | 
 | LTHM  | Livent            | 
 | LKQ   | LKQ               | 
 | LMT   | Lockheed Mart     | 
 | LOMA  | Loma Negra Cc     | 
-| LW    | Lowe's            | 
-| L     | LTC Properties    | 
+| LOW   | Lowe's            | 
+| LTC   | LTC Properties    | 
 | LK    | Luckin Coffee     | 
-| LULY  | Lululemon         | 
+| LULU  | Lululemon         | 
 | LYFT  | Lyft              | 
 | M     | Macy's            | 
-| MRO   | Marathon Oil C    | 
+| MRO   | Marathon Qil C    | 
 | MPC   | Marathon Petrc    | 
 | MAR   | Marriott          | 
 | MMC   | Marsh & McLer     | 
-| MRVL  | Marvell Techne    | 
-| MAS   | Masco Corporz     | 
+| MRVL  | Marvell Techno    | 
+| MAS   | Masco Corpora     | 
 | MA    | Mastercard        | 
 | MTDR  | Matador Resou     | 
 | MTCH  | Match Group       | 
 | MAT   | Mattel            | 
 | MXIM  | Maxim Integrat    | 
 | MDR   | McDermott Inte    | 
-| MCD   | McDonald's        | 
+| MCD   | McDonald’s        | 
 | MUX   | McEwen Minin      | 
 | MPW   | Medical Proper    | 
 | MDT   | Medtronic         | 
-| MLCO  | Melco Crown E     | 
+| MLCO  | Melco Crown E\|   | 
 | MELI  | MercadoLibre      | 
 | MRK   | Merck             | 
 | MET   | Metlife           | 
 | MFA   | MFA Financial     | 
 | MTG   | MGIC Investme     | 
 | MGM   | MGM Resorts       | 
-| MIK   | Michaels Com      | 
-| MCHP  | Microchip Tec     | 
-| MU    | Micron Techno     | 
+| MIK   | Michaels Comg     | 
+| MCHP  | Microchip Tech    | 
+| MU    | Micron Techno!    | 
 | MSFT  | Microsoft         | 
-| MFG   | Mizuho Financ     | 
+| MFG   | Mizuho Financi    | 
 | MBT   | Mobile TeleSys    | 
 | MOMO  | Momo              | 
 | MDLZ  | Mondelez          | 
 | MGI   | MoneyGram         | 
 | MNST  | Monster           | 
 | MCO   | Moody's           | 
-| MS    | Morgan Stanle     | 
+| MS    | Morgan Stanley    | 
 | MORN  | Morningstar       | 
 | MOS   | Mosaic Compa      | 
-| MSI   | Motorola Soluti   | 
+| MS    | Motorola Soluti   | 
 | MPLX  | MPLX LP           | 
-| MUFG  | MUFJ Financia     | 
-| MUR   | Murphy Oil Cor    | 
+| MUFG  | MUFJ Financial    | 
+| MUR   | Murphy Oil Cor\|  | 
 | MYL   | Mylan NV          | 
 | NBR   | Nabors Industr    | 
-| NDAQ  | Nasdag OMX G      | 
-| NOV   | National ilwel    | 
+| NDAQ  | Nasdaq OMX G      | 
+| NOV   | National Oilwel   | 
 | NTCO  | Natura Holding    | 
 | NAVI  | Navient Corpor    | 
 | NKTR  | Nektar Therape    | 
@@ -519,8 +519,8 @@
 | NFLX  | Netflix           | 
 | NBIX  | Neurocrine Bio    | 
 | NBEV  | New Age Bever     | 
-| EDU   | New Oriental E    | 
-| NRZ   | New Residenti     | 
+| EDU   | New Oriental E¢   | 
+| NRZ   | New Residentiz    | 
 | NYCB  | New York Com      | 
 | NYMT  | New York Mort     | 
 | NYT   | New York Time     | 
@@ -529,7 +529,7 @@
 | NWSA  | News Corporat     | 
 | NEE   | NextEra Energy    | 
 | NKE   | Nike              | 
-| NI    | NIO               | 
+| NIO   | NIO               | 
 | NOAH  | Noah Holdings     | 
 | NBL   | Noble Energy      | 
 | NMR   | Nomura            | 
@@ -537,45 +537,45 @@
 | NSC   | Norfolk Southe    | 
 | NTRS  | Northern Trust    | 
 | NOC   | Northrop Grum     | 
-| NLOK  | NortonLifeLocl    | 
-| NCLH  | Norwegian Cru     | 
+| NLOK  | NortonLifeLock    | 
+| NCLH  | Norwegian Crul    | 
 | NVCR  | NovoCure          | 
 | NRG   | NRG Energy        | 
 | NUE   | Nucor             | 
 | NTNX  | Nutanix           | 
 | NUVA  | NuVasive          | 
 | NVDA  | Nvidia            | 
-| ORLY  | O'Reilly Auto P   | 
-| AS    | Oasis Petroleu    | 
-| OX    | Occidental        | 
-| P     | Office Depot      | 
+| ORLY  | O'Reilly Auto P:  | 
+| OAS   | Oasis Petroleur   | 
+| OXY   | Occidental        | 
+| ODP   | Office Depot      | 
 | OKTA  | Okta              | 
 | OLN   | Olin              | 
-| M     | Omnicom Grou      | 
+| OMC   | Omnicom Grou      | 
 | ON    | ON Semicondu      | 
 | OKE   | Oneok             | 
-| PK    | Opko Health       | 
+| OPK   | Opko Health       | 
 | ORCL  | Oracle            | 
-| ONVO  | Organovo Hold     | 
-| STK   | Overstock.com     | 
+| ONVO  | Organovo Hold!    | 
+| OSTK  | Overstock.com     | 
 | PG    | P&G               | 
 | PCAR  | Paccar            | 
 | PD    | Pagerduty         | 
-| PANW  | Palo Alto Netw    | 
+| PANW  | Palo Alto Netw:   | 
 | PAM   | Pampa Energia     | 
-| PAAS  | Pan American      | 
-| PH    | Parker-Hannifi    | 
+| PAAS  | Pan American ¢    | 
+| PH    | Parker-Hannifir   | 
 | PE    | Parsley Energy    | 
 | PTEN  | Patterson-UTI \|  | 
 | PAYX  | Paychex           | 
 | PYPL  | PayPal            | 
 | PBF   | PBF Energy        | 
 | PTON  | Peloton Interac   | 
-| PBCT  | People's Unitec   | 
+| PBCT  | People's United   | 
 | PEP   | PepsiCo           | 
-| PBR   | Petroleo Brasil   | 
+| PBR   | Petroleo Brasile  | 
 | PFE   | Pfizer            | 
-| PCG   | PGAE Corporat     | 
+| PCG   | PG&E Corporat     | 
 | PM    | Philip Morris     | 
 | PSX   | Phillips 66       | 
 | PDD   | Pinduoduo Inc     | 
@@ -589,26 +589,26 @@
 | PNC   | PNC Financial     | 
 | PPG   | PPG Industries    | 
 | PPL   | PPL Corporatio    | 
-| PBH   | Prestige Brand    | 
+| PBH   | Prestige Brand:   | 
 | PRI   | Primerica         | 
 | PGR   | Progressive       | 
 | PLD   | Prologis          | 
 | PFPT  | Proofpoint        | 
 | PRU   | Prudential Fina   | 
-| PEG   | Public Service\|  | 
+| PEG   | Public Service \| | 
 | PSA   | Public Storage    | 
 | PHM   | PulteGroup        | 
 | PSTG  | Pure Storage      | 
 | QTWO  | Q2 Holdings       | 
-| QP    | QEP Resources     | 
+| QEP   | QEP Resources     | 
 | QCOM  | Qualcomm          | 
-| L     | Qualys            | 
+| QLYS  | Qualys            | 
 | PWR   | Quanta Service    | 
 | QD    | Qudian            | 
 | QRTEA | Qurate Retail     | 
 | RL    | Ralph Lauren      | 
 | RRC   | Range Resourc     | 
-| RTN   | Raytheon Com      | 
+| RTN   | Raytheon Com)j    | 
 | RLGY  | Realogy Holdin    | 
 | REAL  | RealReal          | 
 | O     | Realty Income     | 
@@ -616,7 +616,7 @@
 | RF    | Regions Financ    | 
 | REGI  | Renewable Ene     | 
 | RMD   | ResMed            | 
-| QSR   | Restaurant Bra    | 
+| QSR   | Restaurant Bral   | 
 | RNG   | RingCentral       | 
 | RAD   | Rite Aid          | 
 | ROK   | Rockwell Autor    | 
@@ -625,47 +625,47 @@
 | RY    | Royal Bank of (   | 
 | RCL   | Royal Caribbea    | 
 | RES   | RPC               | 
-| SPGI  | S                 | 
+| SPGI  | S&P               | 
 | CRM   | Salesforce        | 
 | SBH   | Sally Beauty      | 
-| SGMO  | Sangamo Ther.     | 
+| SGMO  | Sangamo Ther:     | 
 | SLB   | Schlumberger      | 
 | STX   | Seagate Techn     | 
 | SRE   | Sempra Energy     | 
 | SENS  | Senseonics Ho     | 
 | SHAK  | Shake Shack       | 
-| SHW   | Sherwin-Wiliar    | 
+| SHW   | Sherwin-Willian   | 
 | SHOP  | Shopify           | 
 | SBGL  | Sibanye Gold L    | 
-| SPG   | Simon Propert)    | 
+| SPG   | Simon Property    | 
 | SIRI  | Sirius XM         | 
 | SKX   | Skechers          | 
-| SWKS  | Skyworks Solu     | 
+| SWKS  | Skyworks Soluf    | 
 | WORK  | Slack             | 
-| SLM   | SLM Corporati     | 
-| M     | SM Energy Con     | 
+| SLM   | SLM Corporatic    | 
+| SM    | SM Energy Con     | 
 | SMAR  | Smartsheet        | 
 | SNAP  | Snap              | 
-| SGO   | Sogou             | 
+| SOGO  | Sogou             | 
 | SNE   | Sony              | 
 | BID   | Sotheby's         | 
-| SU    | Southern Comy     | 
-| SO    | Southem Copp      | 
-| LV    | Southwest Airl    | 
-| SWN   | Southwestern \|   | 
+| SO    | Southern Comg     | 
+| SCCO  | Southern Copp     | 
+| LUV   | Southwest Airli   | 
+| SWN   | Southwestern      | 
 | ONCE  | Spark Therapet    | 
 | SPLK  | Splunk            | 
 | SPOT  | Spotify           | 
 | S     | Sprint Corporat   | 
-| SFM   | Sprouts Farme     | 
-| SU    | Square            | 
+| SFM   | Sprouts Farmel    | 
+| SQ    | Square            | 
 | SRCI  | SRC Energy        | 
-| SSNC  | SS&C Technolc     | 
+| SSNC  | SS&C Technolo     | 
 | SWK   | Stanley Black &   | 
 | SBUX  | Starbucks         | 
 | TSG   | Stars Group       | 
 | STT   | State Street      | 
-| STLD  | Steel Dynamic:    | 
+| STLD  | Steel Dynamics    | 
 | SFIX  | Stitch Fix        | 
 | STNE  | StoneCo           | 
 | SYK   | Stryker           | 
@@ -673,81 +673,81 @@
 | SU    | Suncor Energy     | 
 | SPWR  | SunPower          | 
 | RUN   | Sunrun            | 
-| ST    | SunTrust Bank     | 
-| SSS   | Sutter Rock Ca    | 
-| SYF   | Synchrony Finz    | 
+| STI   | SunTrust Bank:    | 
+| SSSS  | Sutter Rock Ca\|  | 
+| SYF   | Synchrony Fina    | 
 | SNPS  | Synopsys          | 
 | SYY   | Sysco             | 
 | TMUS  | T-Mobile          | 
 | TROW  | T. Rowe Price     | 
-| WO    | T2 Interactive    | 
+| TTWO  | T2 Interactive    | 
 | TLRD  | Tailored Brands   | 
 | TSM   | Taiwan Semico     | 
 | TAK   | Takeda Pharme     | 
-| TAL   | Tal Education ¢   | 
+| TAL   | Tal Education C   | 
 | SKT   | Tanger Factory    | 
 | TPR   | Tapestry          | 
 | TEDU  | Tarena Internat   | 
 | TRGP  | Targa Resource    | 
-| TT    | Target            | 
+| TGT   | Target            | 
 | TTM   | Tata Motors       | 
 | AMTD  | TD Ameritrade     | 
 | FTI   | TechnipFMC pl     | 
-| TECK  | Teck Resource     | 
+| TECK  | Teck Resource!    | 
 | TFX   | Teleflex          | 
 | VIV   | Telefonica Bras   | 
 | TELL  | Tellurian         | 
-| X     | Tempur Sealy      | 
+| TPX   | Tempur Sealy      | 
 | TME   | Tencent Music     | 
 | TER   | Teradyne          | 
 | TSLA  | Tesla             | 
 | TEVA  | Teva Pharmace     | 
-| XN    | Texas Instrume    | 
+| TXN   | Texas Instrume    | 
 | DOW   | The Dow Chem      | 
-| GEO   | The GEO Groug     | 
+| GEO   | The GEO Group     | 
 | TXMD  | TherapeuticsM     | 
-| O     | Thermo Fisher     | 
+| TMO   | Thermo Fisher     | 
 | TIF   | Tiffany & Co      | 
-| TSU   | TIM Participag    | 
-| X     | TJX Companie:     | 
-| TD    | Toronto-Domin     | 
+| TSU   | TIM Participagt   | 
+| TIX   | TJX Companies     | 
+| D     | Toronto-Domin     | 
 | TM    | Toyota            | 
 | TW    | Tradeweb Mark     | 
 | TRXC  | TransEnterix      | 
 | TRV   | Travelers         | 
 | TCOM  | Trip.com          | 
 | TRIP  | TripAdvisor       | 
-| TI    | Triumph           | 
-| TFC   | Truist Financia   | 
-| TRQ   | Turquoise Hil     | 
+| TGI   | Triumph           | 
+| TFC   | Truist Financial  | 
+| TRQ   | Turquoise Hill F  | 
 | TWLO  | Twilio            | 
 | TWTR  | Twitter           | 
 | TWO   | Two Harbors In    | 
 | TSN   | Tyson Foods       | 
 | UBER  | Uber              | 
 | ULTA  | Ulta Beauty       | 
-| TT    | Ultra Clean Hol   | 
+| UCTT  | Ultra Clean Hol   | 
 | UGP   | Ultrapar Partici  | 
 | UAA   | Under Armour      | 
-| A     | Under Armour (    | 
+| UA    | Under Armour (    | 
 | UNP   | Union Pacific     | 
-| VAL   | United Contine    | 
-| UM    | United Microel    | 
-| X     | United States €   | 
+| UAL   | United Continel   | 
+| UMC   | United Microele   | 
+| X     | United States S   | 
 | UTX   | United Technol    | 
 | UNH   | UnitedHealth      | 
 | UNIT  | Uniti Group       | 
 | UNM   | Unum Group        | 
 | TIGR  | UP Fintech        | 
-| UPS   | upPs              | 
+| UPS   | UPS               | 
 | URBN  | Urban Outfitter   | 
-| US    | US Bancorp        | 
-| SLCA  | US Silica Holdi   | 
+| USB   | US Bancorp        | 
+| SLCA  | US Silica Holdir  | 
 | UXIN  | Uxin              | 
 | VALE  | Vale              | 
-| VL    | Valero            | 
+| VLO   | Valero            | 
 | VGR   | Vector Group      | 
-| VEEV  | Veeva System      | 
+| VEEV  | Veeva Systems     | 
 | VTR   | Ventas            | 
 | VER   | Vereit            | 
 | VRSN  | Verisign          | 
@@ -756,34 +756,34 @@
 | VRTX  | Vertex Pharma     | 
 | VFC   | VF Corporation    | 
 | VIACA | ViacomCBS         | 
-| VI    | VICI Properties   | 
-| VIPS  | Vipshop Holdir    | 
+| VICI  | VICI Properties   | 
+| VIPS  | Vipshop Holdin    | 
 | SPCE  | Virgin Galactic   | 
 | V     | Visa              | 
 | VST   | Vistra Energy     | 
-| MW    | VMware            | 
-| V     | Vonage Holdin     | 
+| VMW   | VMware            | 
+| VG    | Vonage Holding    | 
 | WAB   | WABTEC Corpc      | 
 | WBA   | Walgreens Boo     | 
-| WM    | Walmart           | 
+| WMT   | Walmart           | 
 | DIS   | Walt Disney       | 
-| WM    | Waste Manage      | 
+| WM    | Waste Manage!     | 
 | W     | Wayfair           | 
-| W     | Weibo             | 
-| WFC   | wells Fargo       | 
+| WB    | Weibo             | 
+| WFC   | Wells Fargo       | 
 | WELL  | Welltower         | 
-| WEN   | Wendy's Comp      | 
-| WDC   | Western Digita    | 
-| W     | Western Union     | 
+| WEN   | Wendy's Comp:     | 
+| WDC   | Western Digital   | 
+| WU    | Western Union     | 
 | WRK   | WestRock          | 
 | WEX   | WEX               | 
-| WY    | Weyerhaeuser      | 
+| WY    | Weyerhaeuser !    | 
 | WLL   | Whiting Petrole   | 
 | WMB   | Williams Comp     | 
 | WING  | Wingstop          | 
 | WIT   | Wipro             | 
 | WDAY  | Workday           | 
-| WWE   | World Wrestling   | 
+| WWE   | World Wrestlin    | 
 | WPG   | WP Glimcher       | 
 | WPX   | WPX Energy        | 
 | WYNN  | Wynn Resorts      | 
@@ -799,10 +799,10 @@
 | ZBRA  | Zebra Technolc    | 
 | ZEN   | Zendesk           | 
 | Z     | Zillow Group      | 
-| ZBH   | Zimmer Biome      | 
+| ZBH   | Zimmer Biomet     | 
 | ZION  | Zions Bancorpc    | 
 | ZTS   | Zoetis            | 
 | ZM    | Zoom              | 
 | ZS    | Zscaler           | 
 | ZTO   | ZTO Express       | 
-| ZNGA  | Zynga             |
+| ZNGA  | Zynga             | 
