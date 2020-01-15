@@ -57,6 +57,10 @@ Scroll down. The list is as the bottom of this page.
 
 First of all - check [example screenshot](./example-input.jpg). Your screenshot(s) must follow the pattern!
 
+The screenshot should be at least **720px wide** in order to preserve OCR accuracy (>99,9%)!
+
+**OCR is still not the most accurate solution (about 2-3% misidentified tickers for screenshots smaller than 720px wide). In order to improve it take smaller screenshots (which means better quality per screenshot). For images which are at least 720px wide the accuracy is ~99,9%.**
+
 You can specify multiple input files by adding more parameters. By default it's processing 1 file (filepath `./input.jpg`) which can be very long (complete stock list in 1 screenshot (possible on some mobiles)). See example below.
 
 ```bash
@@ -94,7 +98,5 @@ By default whitelist includes only A-Z characters (upper-case) for tickers and w
 ## The list
 
 As the result you will get a file with all recognized tickers and companies names.
-
-**OCR is still not the most accurate solution so you can find few mistakes there (about 2-3% misidentified tickers).**
 
 [Here](./LIST.md) you can find already extracted list of all available stocks. I will update it from time to time.
