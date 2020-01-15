@@ -1,0 +1,12 @@
+language: go
+services:
+  - docker
+before_install:
+  - cp .env.dist .env
+  - sed -i 's/HOST_UID=/HOST_UID=2000/g' .env
+install:
+  - make build up
+script:
+  - make app-test
+after_script:
+  - make down
