@@ -178,7 +178,7 @@ Number of rows: **796**
 | ZNH   | China Southern    | 
 | CMG   | Chipotle Mexic    | 
 | CIEN  | Ciena Corporat    | 
-| C     | Cigna             | 
+| CI    | Cigna             | 
 | XEC   | Cimarex Energy    | 
 | CTAS  | Cintas            | 
 | CSCO  | Cisco             | 
@@ -502,7 +502,7 @@ Number of rows: **796**
 | MS    | Morgan Stanley    | 
 | MORN  | Morningstar       | 
 | MOS   | Mosaic Compa      | 
-| MS    | Motorola Soluti   | 
+| MSI   | Motorola Soluti   | 
 | MPLX  | MPLX LP           | 
 | MUFG  | MUFJ Financial    | 
 | MUR   | Murphy Oil Cor\|  | 
@@ -710,7 +710,7 @@ Number of rows: **796**
 | TIF   | Tiffany & Co      | 
 | TSU   | TIM Participagt   | 
 | TIX   | TJX Companies     | 
-| D     | Toronto-Domin     | 
+| TD    | Toronto-Domin     | 
 | TM    | Toyota            | 
 | TW    | Tradeweb Mark     | 
 | TRXC  | TransEnterix      | 
