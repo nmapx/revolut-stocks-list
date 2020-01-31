@@ -112,7 +112,7 @@ Number of rows: **796**
 | BBY   | Best Buy          | 
 | BYND  | Beyond Meat       | 
 | BHP   | BHP Billiton      | 
-| BIL   | Bilibili          | 
+| BILI  | Bilibili          | 
 | BIO   | Bio-Rad Labora    | 
 | BIIB  | Biogen            | 
 | BMRN  | Biomarin Pharn    | 
@@ -318,7 +318,7 @@ Number of rows: **796**
 | FTR   | Frontier Comm     | 
 | FSK   | FS KKR Capital    | 
 | GME   | GameStop          | 
-| GC    | Gannett Co        | 
+| GCI   | Gannett Co        | 
 | GPS   | GAP               | 
 | IT    | Gartner           | 
 | GDS   | GDS Holdings      | 
@@ -709,7 +709,7 @@ Number of rows: **796**
 | TMO   | Thermo Fisher     | 
 | TIF   | Tiffany & Co      | 
 | TSU   | TIM Participagt   | 
-| TIX   | TJX Companies     | 
+| TJX   | TJX Companies     | 
 | TD    | Toronto-Domin     | 
 | TM    | Toyota            | 
 | TW    | Tradeweb Mark     | 
