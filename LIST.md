@@ -2,7 +2,7 @@
 
 ## Meta
 
-Updated on: **15.01.2020**
+Updated on: **05.02.2020**
 
 Number of rows: **796**
 
@@ -71,7 +71,7 @@ Number of rows: **796**
 | ANTM  | Anthem            | 
 | AOS   | AO Smith          | 
 | APA   | Apache            | 
-| ARI   | Apollo Comme      | 
+| ARI   | Apollo Commel     | 
 | AAPL  | Apple             | 
 | AMAT  | Applied Materiz   | 
 | ATR   | AptarGroup        | 
@@ -88,7 +88,7 @@ Number of rows: **796**
 | T     | AT&T              | 
 | ADSK  | Autodesk          | 
 | ATHM  | Autohome          | 
-| ADP   | Automatic Dat:    | 
+| ADP   | Automatic Dats    | 
 | AZO   | AutoZone          | 
 | AVLR  | Avalara           | 
 | AVB   | AvalonBay Con     | 
@@ -191,12 +191,12 @@ Number of rows: **796**
 | CLDR  | Cloudera          | 
 | NET   | Cloudflare        | 
 | CLVS  | Clovis Oncolog    | 
-| CME   | CME Group (CI:    | 
+| CME   | CME Group (Cl:    | 
 | CNX   | CNX Resources     | 
 | KO    | Coca-Cola         | 
 | CDE   | Coeur Mining      | 
 | CGNX  | Cognex Corpor     | 
-| CTSH  | Cognizant Tect    | 
+| CTSH  | Cognizant Teck    | 
 | CL    | Colgate-Palmo!    | 
 | CLNY  | Colony Capital    | 
 | CMCSA | Comcast           | 
@@ -265,7 +265,7 @@ Number of rows: **796**
 | LLY   | Eli Lilly         | 
 | ERJ   | Embraer           | 
 | EMR   | Emerson           | 
-| ECA   | Encana Corpor:    | 
+| OVV   | Encana Corpor:    | 
 | ET    | Energy Transfe    | 
 | ENIA  | Enersis Americ    | 
 | ENLC  | EnLink Midstre    | 
@@ -312,7 +312,7 @@ Number of rows: **796**
 | F     | Ford              | 
 | FTNT  | Fortinet          | 
 | FTV   | Fortive           | 
-| BEN   | Franklin Resou    | 
+| BEN   | Franklin Resoul   | 
 | FCX   | Freeport          | 
 | FREQ  | Frequency The!    | 
 | FTR   | Frontier Comm     | 
@@ -335,7 +335,7 @@ Number of rows: **796**
 | GDDY  | GoDaddy           | 
 | GOL   | Gol Intelligent / | 
 | GF    | Gold Fields       | 
-| GS    | Goldman Sachs     | 
+| GS    | Goldman Sach:     | 
 | GT    | Goodyear          | 
 | GPRO  | GoPro             | 
 | GPK   | Graphic Packag    | 
@@ -373,7 +373,7 @@ Number of rows: **796**
 | HD    | Home Depot        | 
 | HMC   | Honda Motor       | 
 | HON   | Honeywell         | 
-| HRL   | Hormel Foods ¢    | 
+| HRL   | Hormel Foods \|   | 
 | HST   | Host Hotels & \|  | 
 | HPQ   | HP                | 
 | HTHT  | Huazhu Group      | 
@@ -424,9 +424,9 @@ Number of rows: **796**
 | JPM   | JPMorgan          | 
 | JMIA  | Jumia             | 
 | JNPR  | Juniper Netwol    | 
-| KAR   | KAR Auction S     | 
+| KAR   | KAR Auction Se    | 
 | K     | Kellogg's         | 
-| KDP   | Keurig Dr Pepp!   | 
+| KDP   | Keurig Dr Pepp    | 
 | KEY   | KeyCorp.          | 
 | KEYS  | Keysight Techn    | 
 | KMB   | Kimberly-Clark    | 
@@ -476,12 +476,12 @@ Number of rows: **796**
 | MTCH  | Match Group       | 
 | MAT   | Mattel            | 
 | MXIM  | Maxim Integrat    | 
-| MDR   | McDermott Inte    | 
+| MDRIQ | McDermott Inte    | 
 | MCD   | McDonald’s        | 
 | MUX   | McEwen Minin      | 
 | MPW   | Medical Proper    | 
 | MDT   | Medtronic         | 
-| MLCO  | Melco Crown E\|   | 
+| MLCO  | Melco Crown E     | 
 | MELI  | MercadoLibre      | 
 | MRK   | Merck             | 
 | MET   | Metlife           | 
@@ -570,6 +570,7 @@ Number of rows: **796**
 | PAYX  | Paychex           | 
 | PYPL  | PayPal            | 
 | PBF   | PBF Energy        | 
+| PDCE  | PDC Energy Inc    | 
 | PTON  | Peloton Interac   | 
 | PBCT  | People's United   | 
 | PEP   | PepsiCo           | 
@@ -659,7 +660,6 @@ Number of rows: **796**
 | S     | Sprint Corporat   | 
 | SFM   | Sprouts Farmel    | 
 | SQ    | Square            | 
-| SRCI  | SRC Energy        | 
 | SSNC  | SS&C Technolo     | 
 | SWK   | Stanley Black &   | 
 | SBUX  | Starbucks         | 
@@ -683,7 +683,7 @@ Number of rows: **796**
 | TTWO  | T2 Interactive    | 
 | TLRD  | Tailored Brands   | 
 | TSM   | Taiwan Semico     | 
-| TAK   | Takeda Pharme     | 
+| TAK   | Takeda Pharmz     | 
 | TAL   | Tal Education C   | 
 | SKT   | Tanger Factory    | 
 | TPR   | Tapestry          | 
@@ -731,7 +731,7 @@ Number of rows: **796**
 | UAA   | Under Armour      | 
 | UA    | Under Armour (    | 
 | UNP   | Union Pacific     | 
-| UAL   | United Continel   | 
+| UAL   | United Contine!   | 
 | UMC   | United Microele   | 
 | X     | United States S   | 
 | UTX   | United Technol    | 
@@ -794,7 +794,7 @@ Number of rows: **796**
 | YPF   | YPF               | 
 | YUM   | Yum!              | 
 | YUMC  | Yum!              | 
-| YY    | YY                | 
+| YY    | YY.               | 
 | ZAYO  | Zayo Group Ho!    | 
 | ZBRA  | Zebra Technolc    | 
 | ZEN   | Zendesk           | 
