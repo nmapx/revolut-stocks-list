@@ -2,9 +2,9 @@
 
 ## Meta
 
-Updated on: **05.02.2020**
+Updated on: **29.02.2020**
 
-Number of rows: **796**
+Number of rows: **795**
 
 ## The list
 
@@ -108,7 +108,7 @@ Number of rows: **796**
 | BBAR  | BBVA Banco Fr     | 
 | BDX   | Becton Dickins    | 
 | BDC   | Belden            | 
-| BRKB  | Berkshire Hath.   | 
+| BRKB  | Berkshire Hath    | 
 | BBY   | Best Buy          | 
 | BYND  | Beyond Meat       | 
 | BHP   | BHP Billiton      | 
@@ -154,7 +154,6 @@ Number of rows: **796**
 | CBL   | CBL & Associat    | 
 | CBOE  | CBOE Holdings     | 
 | CBRE  | CBRE Group        | 
-| CELG  | Celgene           | 
 | CX    | CEMEX S.A.B.      | 
 | CVE   | Cenovus Energ     | 
 | CNC   | Centene           | 
@@ -191,7 +190,7 @@ Number of rows: **796**
 | CLDR  | Cloudera          | 
 | NET   | Cloudflare        | 
 | CLVS  | Clovis Oncolog    | 
-| CME   | CME Group (Cl:    | 
+| CME   | CME Group         | 
 | CNX   | CNX Resources     | 
 | KO    | Coca-Cola         | 
 | CDE   | Coeur Mining      | 
@@ -203,10 +202,10 @@ Number of rows: **796**
 | CMA   | Comerica          | 
 | COMM  | CommScope H       | 
 | CYH   | Community He      | 
+| BVN   | Compaiiia de M    | 
 | SBS   | Companhia de      | 
 | CIG   | Companhia Ene     | 
 | SID   | Companhia Sid     | 
-| BVN   | Compaiiia de M    | 
 | CAG   | ConAgra Foods     | 
 | CXO   | Concho Resour     | 
 | CNDT  | Conduent          | 
@@ -312,7 +311,7 @@ Number of rows: **796**
 | F     | Ford              | 
 | FTNT  | Fortinet          | 
 | FTV   | Fortive           | 
-| BEN   | Franklin Resoul   | 
+| BEN   | Franklin Resou    | 
 | FCX   | Freeport          | 
 | FREQ  | Frequency The!    | 
 | FTR   | Frontier Comm     | 
@@ -335,7 +334,7 @@ Number of rows: **796**
 | GDDY  | GoDaddy           | 
 | GOL   | Gol Intelligent / | 
 | GF    | Gold Fields       | 
-| GS    | Goldman Sach:     | 
+| GS    | Goldman Sachg     | 
 | GT    | Goodyear          | 
 | GPRO  | GoPro             | 
 | GPK   | Graphic Packag    | 
@@ -358,7 +357,7 @@ Number of rows: **796**
 | HCA   | HCA Healthcar:    | 
 | HDB   | HDFC Bank.        | 
 | HL    | Hecla Mining C    | 
-| HE    | Heico             | 
+| HEI   | Heico             | 
 | HSIC  | Henry Schein      | 
 | HLF   | Herbalife         | 
 | HTZ   | Hertz             | 
@@ -373,7 +372,7 @@ Number of rows: **796**
 | HD    | Home Depot        | 
 | HMC   | Honda Motor       | 
 | HON   | Honeywell         | 
-| HRL   | Hormel Foods \|   | 
+| HRL   | Hormel Foods      | 
 | HST   | Host Hotels & \|  | 
 | HPQ   | HP                | 
 | HTHT  | Huazhu Group      | 
@@ -384,13 +383,11 @@ Number of rows: **796**
 | HCM   | Hutchison Chin    | 
 | HUYA  | HUYA              | 
 | H     | Hyatt Hotels      | 
-| IAG   | lamgold Corp      | 
 | IBM   | IBM               | 
 | IBN   | ICICI Bank        | 
 | IDXX  | IDEXX Laboratc    | 
 | IGMS  | IGM Bioscience    | 
 | ITW   | Illinois Tool Wo  | 
-| ILMN  | lllumina          | 
 | IMGN  | ImmunoGen         | 
 | INCY  | Incyte            | 
 | INFN  | Infinera Corpor   | 
@@ -412,9 +409,9 @@ Number of rows: **796**
 | IRBT  | iRobot            | 
 | IRM   | Iron Mountain     | 
 | ITUB  | Itad Unibanco     | 
-| JNJ   | J&J               | 
 | JCP   | J. C. Penney C¢   | 
 | JBHT  | J.B. Hunt         | 
+| JNJ   | J&J               | 
 | JKHY  | Jack Henry & A    | 
 | JD    | JD.com            | 
 | JEF   | Jefferies Finan   | 
@@ -443,6 +440,7 @@ Number of rows: **796**
 | KT    | KT                | 
 | LB    | L Brands          | 
 | LRCX  | Lam Research      | 
+| IAG   | Iamgold Corp      | 
 | LPI   | Laredo Petrolet   | 
 | LVS   | Las Vegas San(    | 
 | LTM   | LATAM Airlines    | 
@@ -450,13 +448,14 @@ Number of rows: **796**
 | LDOS  | Leidos Holding    | 
 | LEN   | Lennar            | 
 | LEVI  | Levi Strauss &    | 
-| LXRX  | Lexicon Pharm:    | 
+| LXRX  | Lexicon Pharm     | 
 | LX    | LexinFintech H    | 
 | LPL   | LG Display        | 
 | FWONK | Liberty Media C   | 
 | LYV   | Live Nation Ent   | 
 | LTHM  | Livent            | 
 | LKQ   | LKQ               | 
+| ILMN  | Illumina          | 
 | LMT   | Lockheed Mart     | 
 | LOMA  | Loma Negra Cc     | 
 | LOW   | Lowe's            | 
@@ -465,8 +464,8 @@ Number of rows: **796**
 | LULU  | Lululemon         | 
 | LYFT  | Lyft              | 
 | M     | Macy's            | 
-| MRO   | Marathon Qil C    | 
 | MPC   | Marathon Petrc    | 
+| MRO   | Marathon Qil C    | 
 | MAR   | Marriott          | 
 | MMC   | Marsh & McLer     | 
 | MRVL  | Marvell Techno    | 
@@ -481,7 +480,7 @@ Number of rows: **796**
 | MUX   | McEwen Minin      | 
 | MPW   | Medical Proper    | 
 | MDT   | Medtronic         | 
-| MLCO  | Melco Crown E     | 
+| MLCO  | Melco Crown E |   | 
 | MELI  | MercadoLibre      | 
 | MRK   | Merck             | 
 | MET   | Metlife           | 
@@ -508,6 +507,7 @@ Number of rows: **796**
 | MUR   | Murphy Oil Cor\|  | 
 | MYL   | Mylan NV          | 
 | NBR   | Nabors Industr    | 
+| NAB   | NABTEC Corpol     | 
 | NDAQ  | Nasdaq OMX G      | 
 | NOV   | National Oilwel   | 
 | NTCO  | Natura Holding    | 
@@ -561,7 +561,7 @@ Number of rows: **796**
 | PG    | P&G               | 
 | PCAR  | Paccar            | 
 | PD    | Pagerduty         | 
-| PANW  | Palo Alto Netw:   | 
+| PANW  | Palo Alto Netw    | 
 | PAM   | Pampa Energia     | 
 | PAAS  | Pan American ¢    | 
 | PH    | Parker-Hannifir   | 
@@ -637,7 +637,7 @@ Number of rows: **796**
 | SHAK  | Shake Shack       | 
 | SHW   | Sherwin-Willian   | 
 | SHOP  | Shopify           | 
-| SBGL  | Sibanye Gold L    | 
+| SBSW  | Sibanye-Stillwa   | 
 | SPG   | Simon Property    | 
 | SIRI  | Sirius XM         | 
 | SKX   | Skechers          | 
@@ -684,7 +684,7 @@ Number of rows: **796**
 | TLRD  | Tailored Brands   | 
 | TSM   | Taiwan Semico     | 
 | TAK   | Takeda Pharmz     | 
-| TAL   | Tal Education C   | 
+| TAL   | Tal Education     | 
 | SKT   | Tanger Factory    | 
 | TPR   | Tapestry          | 
 | TEDU  | Tarena Internat   | 
@@ -710,7 +710,7 @@ Number of rows: **796**
 | TIF   | Tiffany & Co      | 
 | TSU   | TIM Participagt   | 
 | TJX   | TJX Companies     | 
-| TD    | Toronto-Domin     | 
+| T     | Toronto-Domin     | 
 | TM    | Toyota            | 
 | TW    | Tradeweb Mark     | 
 | TRXC  | TransEnterix      | 
@@ -731,7 +731,7 @@ Number of rows: **796**
 | UAA   | Under Armour      | 
 | UA    | Under Armour (    | 
 | UNP   | Union Pacific     | 
-| UAL   | United Contine!   | 
+| UAL   | United Continel   | 
 | UMC   | United Microele   | 
 | X     | United States S   | 
 | UTX   | United Technol    | 
@@ -763,7 +763,6 @@ Number of rows: **796**
 | VST   | Vistra Energy     | 
 | VMW   | VMware            | 
 | VG    | Vonage Holding    | 
-| WAB   | WABTEC Corpc      | 
 | WBA   | Walgreens Boo     | 
 | WMT   | Walmart           | 
 | DIS   | Walt Disney       | 
@@ -794,7 +793,7 @@ Number of rows: **796**
 | YPF   | YPF               | 
 | YUM   | Yum!              | 
 | YUMC  | Yum!              | 
-| YY    | YY.               | 
+| YY    | YY                | 
 | ZAYO  | Zayo Group Ho!    | 
 | ZBRA  | Zebra Technolc    | 
 | ZEN   | Zendesk           | 

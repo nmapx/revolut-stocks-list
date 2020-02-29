@@ -4,7 +4,7 @@ Extract Revolut stocks list from the list screenshot(s) ([example screenshot](./
 
 I made this app since there is no official list of all available Revolut stocks.
 
-**You can get a full list at the bottom of this page. It may not be up to date but I will do my best to keep it updated!**
+**[Here](./LIST.md) you can find already extracted list of all available stocks. I will update it from time to time.**
 
 ## Technologies
 
