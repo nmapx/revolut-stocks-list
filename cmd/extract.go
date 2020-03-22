@@ -71,8 +71,8 @@ func extract(in []string, out string, languages []string, whT string, whN string
 		bounds = src.Bounds()
 
 		log.Println("Transforming the source image")
-		tmp = imaging.CropAnchor(src, bounds.Max.X, int(float64(bounds.Max.Y)-float64(bounds.Max.X)/2.4), imaging.Bottom)
-		tmp = imaging.CropAnchor(tmp, int(float64(bounds.Max.X)-float64(bounds.Max.X)/4.7), bounds.Max.Y, imaging.Right)
+		tmp = imaging.CropAnchor(src, bounds.Max.X, int(float64(bounds.Max.Y)-float64(bounds.Max.X)/2.9), imaging.Bottom)
+		tmp = imaging.CropAnchor(tmp, int(float64(bounds.Max.X)-float64(bounds.Max.X)/5.2), bounds.Max.Y, imaging.Right)
 		tmp = imaging.CropAnchor(tmp, int(float64(bounds.Max.X)/3.3), bounds.Max.Y, imaging.Left)
 
 		log.Println("Saving temporary file")

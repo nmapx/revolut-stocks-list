@@ -31,24 +31,22 @@ func TestExtract(t *testing.T) {
 	whT := "QWERTYUIOPASDFGHJKLZXCVBNM"
 	whN := ""
 
-	expected = `XRX,Xerox
-XLNX,Xilinx
-AUY,Yamana Gold
-YPF,YPF
-YUM,Yum!
-YUMC,Yum!
-YY,YY
-ZAYO,Zayo Group Ho!
-ZBRA,Zebra Technolc
-ZEN,Zendesk
-Z,Zillow Group
-ZBH,Zimmer Biome
-ZION,Zions Bancorpc
-ZTS,Zoetis
-ZM,Zoom
-ZS,Zscaler
-ZTO,ZTO Express
-ZNGA,Zynga
+	expected = `WAB,WABTEC Corpor
+WBA,Walgreens Boot:
+WMT,Walmart
+DIS,Walt Disney
+WM,Waste Managen
+W,Wayfair
+WB,Weibo
+WFC,Wells Fargo
+WELL,Welltower
+WEN,Wendy's Compal
+WDC,Western Digital
+WU,Western Union
+WRK,WestRock
+WEX,WEX
+WY,Weyerhaeuser C
+WLL,Whiting PetroleL
 `
 	csv = extract(in, out, langs, whT, whN)
 	if csv.String() != expected {
