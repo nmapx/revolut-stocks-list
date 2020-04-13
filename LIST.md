@@ -2,25 +2,24 @@
 
 ## Meta
 
-Updated on: **22.03.2020**
+Updated on: **13.04.2020**
 
-Number of rows: **795**
+Number of rows: **791**
 
 ## The list
 
 | Ticker | Company name      |
 |-------|--------------------| 
-| FOXA  | 21st Century Fo»   | 
+| FOXA  | 21st Century Fo    | 
 | TWOU  | 2U                 | 
 | MMM   | 3M                 | 
 | WUBA  | 58.com             | 
 | ABT   | Abbott Labs        | 
 | ABBV  | AbbVie             | 
 | ANF   | Abercrombie & F    | 
-| ACHN  | Achillion Pharm:   | 
 | ATVI  | Activision Blizza  | 
 | ADBE  | Adobe              | 
-| AAP   | Advance Auto P     | 
+| AAP   | Advance Auto P:    | 
 | AMD   | Advanced Micro     | 
 | AES   | AES Corporation    | 
 | AFL   | Aflac              | 
@@ -29,7 +28,6 @@ Number of rows: **795**
 | AIG   | AlIG               | 
 | AL    | Air Lease Corpol   | 
 | APD   | Air Products anc   | 
-| AKS   | AK Steel Holding   | 
 | AKAM  | Akamai Technol     | 
 | AA    | Alcoa              | 
 | ALXN  | Alexion Pharmac    | 
@@ -81,7 +79,6 @@ Number of rows: **795**
 | ARCC  | Ares Capital       | 
 | ANET  | Arista Networks    | 
 | ARR   | ARMOUR Reside      | 
-| ARQL  | ArQule             | 
 | ASNA  | Ascena Retail Gi   | 
 | ASML  | ASML Holding       | 
 | HOME  | At Home Group      | 
@@ -130,12 +127,12 @@ Number of rows: **795**
 | BOX   | Box                | 
 | BRFS  | BRF                | 
 | BMY   | Bristol-Myers S¢   | 
-| BMYRT | Bristol-Myers Sq   | 
+| BMYRT | Bristol-Myers S¢   | 
 | BRX   | Brixmor Propert    | 
 | AVGO  | Broadcom           | 
 | BAM   | Brookfield Asset   | 
 | BIP   | Brookfield Infras  | 
-| BEP   | Brookfield Renes   | 
+| BEP   | Brookfield Renet   | 
 | BFB   | Brown Forman       | 
 | BG    | Bunge              | 
 | COG   | Cabot Oil & Gas    | 
@@ -148,6 +145,7 @@ Number of rows: **795**
 | CAH   | Cardinal Health    | 
 | CG    | Carlyle Group      | 
 | CCL   | Carnival           | 
+| CARR  | Carrier Global C«  | 
 | CRZO  | Carrizo Oil & Gas  | 
 | CARS  | Cars.com           | 
 | CAT   | Caterpillar        | 
@@ -293,7 +291,7 @@ Number of rows: **795**
 | FDX   | FedEx              | 
 | RACE  | Ferrari            | 
 | FCAU  | Fiat Chrysler      | 
-| FITB  | Fifth Third Banc   | 
+| FITB  | Fifth Third Banc:  | 
 | FEYE  | FireEye            | 
 | FHN   | First Horizon Na   | 
 | AG    | First Majestic Si  | 
@@ -374,12 +372,13 @@ Number of rows: **795**
 | HON   | Honeywell          | 
 | HRL   | Hormel Foods C     | 
 | HST   | Host Hotels & Re¢  | 
+| HWM   | Howmet Aerosp      | 
 | HPQ   | HP                 | 
 | HTHT  | Huazhu Group       | 
 | HUBS  | HubSpot            | 
 | HUM   | Humana             | 
 | HBAN  | Huntington Banc    | 
-| HUN   | Huntsman Corp¢     | 
+| HUN   | Huntsman Corpc     | 
 | HCM   | Hutchison China    | 
 | HUYA  | HUYA               | 
 | H     | Hyatt Hotels       | 
@@ -398,7 +397,7 @@ Number of rows: **795**
 | IBKR  | Interactive Broke  | 
 | ICE   | Intercontinental   | 
 | IGT   | International Gal  | 
-| IP    | International Pa   | 
+| IP    | International Paj  | 
 | IPG   | Interpublic Grou   | 
 | INTU  | Intuit             | 
 | ISRG  | Intuitive Surgica  | 
@@ -520,7 +519,7 @@ Number of rows: **795**
 | NBEV  | New Age Bevera     | 
 | EDU   | New Oriental Ed:   | 
 | NRZ   | New Residential    | 
-| NYCB  | New York Commr     | 
+| NYCB  | New York Comm      | 
 | NYMT  | New York Mortg     | 
 | NYT   | New York Times     | 
 | NWL   | Newell Rubberm     | 
@@ -556,6 +555,7 @@ Number of rows: **795**
 | OPK   | Opko Health        | 
 | ORCL  | Oracle             | 
 | ONVO  | Organovo Holdir    | 
+| OTIS  | Otis Worldwide (   | 
 | OSTK  | Overstock.com      | 
 | PG    | P&G                | 
 | PCAR  | Paccar             | 
@@ -565,12 +565,12 @@ Number of rows: **795**
 | PAAS  | Pan American Si    | 
 | PH    | Parker-Hannifin    | 
 | PE    | Parsley Energy     | 
-| PTEN  | Patterson-UTI Ei   | 
+| PTEN  | Patterson-UT]I Ei  | 
 | PAYX  | Paychex            | 
 | PYPL  | PayPal             | 
 | PBF   | PBF Energy         | 
 | PDCE  | PDC Energy Inc     | 
-| PTON  | Peloton Interact   | 
+| PTON  | Peloton Interacti  | 
 | PBCT  | People's United \| | 
 | PEP   | PepsiCo            | 
 | PBR   | Petroleo Brasilei  | 
@@ -582,7 +582,6 @@ Number of rows: **795**
 | PINS  | Pinterest          | 
 | PXD   | Pioneer Natural    | 
 | PBI   | Pitney Bowes       | 
-| PVTL  | Pivotal Software   | 
 | PAA   | Plains All Ameri   | 
 | PLUG  | Plug Power         | 
 | PS    | Pluralsight        | 
@@ -608,7 +607,7 @@ Number of rows: **795**
 | QRTEA | Qurate Retail      | 
 | RL    | Ralph Lauren       | 
 | RRC   | Range Resource     | 
-| RTN   | Raytheon Comp:     | 
+| RTN   | Raytheon Techn     | 
 | RLGY  | Realogy Holding    | 
 | REAL  | RealReal           | 
 | O     | Realty Income      | 
@@ -653,13 +652,12 @@ Number of rows: **795**
 | SCCO  | Southern Coppe     | 
 | LUV   | Southwest Airlin   | 
 | SWN   | Southwestern Ei    | 
-| ONCE  | Spark Therapeuit   | 
 | SPLK  | Splunk             | 
 | SPOT  | Spotify            | 
 | S     | Sprint Corporatic  | 
 | SFM   | Sprouts Farmers    | 
 | SQ    | Square             | 
-| SSNC  | SS&C Technolog     | 
+| SSNC  | SS&C Technoloc     | 
 | SWK   | Stanley Black &    | 
 | SBUX  | Starbucks          | 
 | TSG   | Stars Group        | 
@@ -718,7 +716,7 @@ Number of rows: **795**
 | TRIP  | TripAdvisor        | 
 | TGI   | Triumph            | 
 | TFC   | Truist Financial ( | 
-| TRQ   | Turquoise Hill R   | 
+| TRQ   | Turquoise Hill Re  | 
 | TWLO  | Twilio             | 
 | TWTR  | Twitter            | 
 | TWO   | Two Harbors Inv    | 
@@ -733,7 +731,6 @@ Number of rows: **795**
 | UAL   | United Continen    | 
 | UMC   | United Microelec   | 
 | X     | United States St   | 
-| UTX   | United Technolo    | 
 | UNH   | UnitedHealth       | 
 | UNIT  | Uniti Group        | 
 | UNM   | Unum Group         | 
@@ -794,7 +791,6 @@ Number of rows: **795**
 | YUM   | Yum!               | 
 | YUMC  | Yum!               | 
 | YY    | YY                 | 
-| ZAYO  | Zayo Group Holc    | 
 | ZBRA  | Zebra Technoloc    | 
 | ZEN   | Zendesk            | 
 | ZG    | Zillow Group       | 
