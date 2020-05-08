@@ -2,9 +2,9 @@
 
 ## Meta
 
-Updated on: **13.04.2020**
+Updated on: **08.05.2020**
 
-Number of rows: **791**
+Number of rows: **788**
 
 ## The list
 
@@ -39,7 +39,6 @@ Number of rows: **791**
 | ALLY  | Ally Financial     | 
 | GOOGL | Alphabet (Class    | 
 | GOOG  | Alphabet (Class    | 
-| AABA  | Altaba             | 
 | ATUS  | Altice USA         | 
 | MO    | Altria             | 
 | AMZN  | Amazon             | 
@@ -60,7 +59,7 @@ Number of rows: **791**
 | APH   | Amphenol           | 
 | ADI   | Analog Devices     | 
 | PLAN  | Anaplan            | 
-| ANGI  | ANGI Homeserv      | 
+| ANGI  | ANGI Homeservi     | 
 | AU    | AngloGold Asha     | 
 | NLY   | Annaly Capital M   | 
 | ANSS  | Ansys              | 
@@ -127,7 +126,7 @@ Number of rows: **791**
 | BOX   | Box                | 
 | BRFS  | BRF                | 
 | BMY   | Bristol-Myers S¢   | 
-| BMYRT | Bristol-Myers S¢   | 
+| BMYRT | Bristol-Myers Sq   | 
 | BRX   | Brixmor Propert    | 
 | AVGO  | Broadcom           | 
 | BAM   | Brookfield Asset   | 
@@ -230,7 +229,6 @@ Number of rows: **791**
 | DAL   | Delta Air Lines    | 
 | DNR   | Denbury Resourt    | 
 | DVN   | Devon Energy       | 
-| DO    | Diamond Offsho     | 
 | DLR   | Digital Realty Tr  | 
 | APPS  | Digital Turbine    | 
 | DFS   | Discover Financi   | 
@@ -238,7 +236,7 @@ Number of rows: **791**
 | DISCK | Discovery Comn     | 
 | DISH  | DISH Network       | 
 | DHC   | Diversified Heall  | 
-| DOCU  | DocuSign           | 
+| DOCU  | DocusSign          | 
 | DG    | Dollar General     | 
 | DLTR  | Dollar Tree        | 
 | D     | Dominion Energ     | 
@@ -291,7 +289,7 @@ Number of rows: **791**
 | FDX   | FedEx              | 
 | RACE  | Ferrari            | 
 | FCAU  | Fiat Chrysler      | 
-| FITB  | Fifth Third Banc:  | 
+| FITB  | Fifth Third Banct  | 
 | FEYE  | FireEye            | 
 | FHN   | First Horizon Na   | 
 | AG    | First Majestic Si  | 
@@ -312,7 +310,6 @@ Number of rows: **791**
 | BEN   | Franklin Resourc   | 
 | FCX   | Freeport           | 
 | FREQ  | Frequency There    | 
-| FTR   | Frontier Commu     | 
 | FSK   | FS KKR Capital     | 
 | GME   | GameStop           | 
 | GCI   | Gannett Co         | 
@@ -480,7 +477,7 @@ Number of rows: **791**
 | MPW   | Medical Propert\|  | 
 | MDT   | Medtronic          | 
 | MLCO  | Melco Crown En     | 
-| MELI  | MercadoLibre       | 
+| MELI  | MercadolLibre      | 
 | MRK   | Merck              | 
 | MET   | Metlife            | 
 | MFA   | MFA Financial      | 
@@ -519,7 +516,7 @@ Number of rows: **791**
 | NBEV  | New Age Bevera     | 
 | EDU   | New Oriental Ed:   | 
 | NRZ   | New Residential    | 
-| NYCB  | New York Comm      | 
+| NYCB  | New York Commr     | 
 | NYMT  | New York Mortg     | 
 | NYT   | New York Times     | 
 | NWL   | Newell Rubberm     | 
@@ -532,7 +529,7 @@ Number of rows: **791**
 | NBL   | Noble Energy       | 
 | NMR   | Nomura             | 
 | JWN   | Nordstrom          | 
-| NSC   | Norfolk Souther    | 
+| NSC   | Norfolk Southert   | 
 | NTRS  | Northern Trust C   | 
 | NOC   | Northrop Grumn     | 
 | NLOK  | NortonLifeLock     | 
@@ -565,12 +562,12 @@ Number of rows: **791**
 | PAAS  | Pan American Si    | 
 | PH    | Parker-Hannifin    | 
 | PE    | Parsley Energy     | 
-| PTEN  | Patterson-UT]I Ei  | 
+| PTEN  | Patterson-UTI Ei   | 
 | PAYX  | Paychex            | 
 | PYPL  | PayPal             | 
 | PBF   | PBF Energy         | 
 | PDCE  | PDC Energy Inc     | 
-| PTON  | Peloton Interacti  | 
+| PTON  | Peloton Interact   | 
 | PBCT  | People's United \| | 
 | PEP   | PepsiCo            | 
 | PBR   | Petroleo Brasilei  | 
@@ -716,7 +713,7 @@ Number of rows: **791**
 | TRIP  | TripAdvisor        | 
 | TGI   | Triumph            | 
 | TFC   | Truist Financial ( | 
-| TRQ   | Turquoise Hill Re  | 
+| TRQ   | Turquoise Hill R   | 
 | TWLO  | Twilio             | 
 | TWTR  | Twitter            | 
 | TWO   | Two Harbors Inv    | 
