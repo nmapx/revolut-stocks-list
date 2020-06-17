@@ -2,15 +2,16 @@ package cmd
 
 import (
 	"bytes"
-	"image"
-	"io/ioutil"
-	"log"
-	"path/filepath"
-	"runtime"
-	"strings"
-
+	"fmt"
 	"github.com/disintegration/imaging"
 	"github.com/otiai10/gosseract/v2"
+	"github.com/piquette/finance-go/quote"
+	"image/png"
+	"io/ioutil"
+	"log"
+	"regexp"
+	"strings"
+
 	"github.com/spf13/cobra"
 )
 
@@ -41,79 +42,97 @@ func init() {
 	extractCmd.PersistentFlags().StringSliceVar(&input, "input", inputExample, "Input image eg. './input.jpg' - use multiple times for many files")
 	extractCmd.PersistentFlags().StringVar(&output, "output", "./output.csv", "Output file eg. './output.csv'")
 	extractCmd.PersistentFlags().StringSliceVar(&lang, "lang", langExample, "Languages used by the OCR - use multiple times for many languages")
-	extractCmd.PersistentFlags().StringVar(&whitelistTickers, "whitelist-tickers", "QWERTYUIOPASDFGHJKLZXCVBNM", "Tickers whitelist eg. 'abcDEF123'")
+	extractCmd.PersistentFlags().StringVar(&whitelistTickers, "whitelist-tickers", "QWERTYUIOPASDFGHJKLZXCVBNM.", "Tickers whitelist eg. 'abcDEF123'")
 	extractCmd.PersistentFlags().StringVar(&whitelistNames, "whitelist-names", "", "Companies names whitelist eg. 'abcDEF123'")
 }
 
-func extract(in []string, out string, languages []string, whT string, whN string) (csv *bytes.Buffer) {
-	var err error
-	var src image.Image
-	var tmp *image.NRGBA
-	var bounds image.Rectangle
-	var client *gosseract.Client
-	var i, c int
-	var ocrText string
-	var ocrSliceNames, ocrSliceTickers []string
-
-	_, filename, _, _ := runtime.Caller(0)
-	cacheDir := filepath.Dir(filename) + "/../cache"
-
+func extract(in []string, out string, languages []string, whT string, whN string) (csv *bytes.Buffer, errors *bytes.Buffer) {
 	csv = new(bytes.Buffer)
+	errors = new(bytes.Buffer)
 
 	log.Println("Script initialized, starting")
-
 	for _, element := range in {
 		log.Printf("Loading image: %v", element)
-		if src, err = imaging.Open(element); err != nil {
+		src, err := imaging.Open(element)
+		if err != nil {
 			panic(err)
 		}
 
-		bounds = src.Bounds()
-
+		bounds := src.Bounds()
 		log.Println("Transforming the source image")
-		tmp = imaging.CropAnchor(src, bounds.Max.X, int(float64(bounds.Max.Y)-float64(bounds.Max.X)/2.9), imaging.Bottom)
-		tmp = imaging.CropAnchor(tmp, int(float64(bounds.Max.X)-float64(bounds.Max.X)/5.2), bounds.Max.Y, imaging.Right)
-		tmp = imaging.CropAnchor(tmp, int(float64(bounds.Max.X)/3.3), bounds.Max.Y, imaging.Left)
+		tmp := imaging.CropAnchor(src, int(float64(bounds.Max.X)-float64(bounds.Max.X)/4.5), bounds.Max.Y, imaging.Right)
+		tmp = imaging.CropAnchor(tmp, int(float64(bounds.Max.X)/2.5), bounds.Max.Y, imaging.Left)
 
-		log.Println("Saving temporary file")
-		if err = imaging.Save(tmp, cacheDir+"/tmp.jpg"); err != nil {
-			panic(err)
+		buff := new(bytes.Buffer)
+		if err = png.Encode(buff, tmp); err != nil {
+			fmt.Println("failed to create buffer", err)
 		}
 
 		log.Printf("Initializing OCR, setting languages %v", languages)
-		client = gosseract.NewClient()
+		client := gosseract.NewClient()
 		defer client.Close()
-		client.SetImage(cacheDir + "/tmp.jpg")
+		client.SetImageFromBytes(buff.Bytes())
 		client.SetLanguage(languages...)
 
 		log.Printf("Processing company names")
 		if len(whN) > 0 {
 			client.SetWhitelist(whN)
 		}
-		ocrText, _ = client.Text()
-		ocrSliceNames = unify(strings.Split(ocrText, "\n"))
+		ocrText, _ := client.Text()
+		ocrSliceNames := unify(strings.Split(ocrText, "\n"))
 
 		log.Printf("Processing tickers")
 		client.SetWhitelist(whT)
 		ocrText, _ = client.Text()
-		ocrSliceTickers = unify(strings.Split(ocrText, "\n"))
+		ocrSliceTickers := unify(strings.Split(ocrText, "\n"))
 
 		if len(ocrSliceNames) != len(ocrSliceTickers) {
 			panic("Data mismatch - please try again with different image")
 		}
 
 		log.Println("Preparing results")
-		c = 0
-		for i = 0; i < len(ocrSliceTickers); i += 2 {
-			csv.WriteString(ocrSliceTickers[i+1] + "," + ocrSliceNames[i] + "\n")
+
+		c := 0
+		state := 0
+		row := ""
+
+		for i := 0; i < len(ocrSliceNames); i++ {
+			if state == 0 {
+				row = ocrSliceNames[i]
+				state = 1
+				continue
+			} else if state == 1 {
+				matchedNames, _ := regexp.MatchString(`^[A-Z\d]+[a-z]{2,}.*$`, ocrSliceNames[i])
+				if matchedNames {
+					row = row + "..." + ocrSliceNames[i]
+					state = 2
+					continue
+				}
+			}
+			splittedName := strings.Split(row, " ")
+			row = ocrSliceTickers[i] + "," + row
+
+
+			q, err := quote.Get(ocrSliceTickers[i])
+			if err != nil || q == nil || !strings.Contains(strings.ToLower(q.ShortName), strings.ToLower(splittedName[0])) {
+				errors.WriteString(row + "\n")
+			} else {
+				csv.WriteString(row + "\n")
+			}
+
+			row = ""
+			state = 0
 			c++
 		}
 
 		log.Printf("Found %v records", c)
 	}
 
-	log.Println("Saving CSV file")
-	if err = ioutil.WriteFile(out, csv.Bytes(), 0644); err != nil {
+	log.Println("Saving CSV file(s)")
+	if err := ioutil.WriteFile(out, csv.Bytes(), 0644); err != nil {
+		panic(err)
+	}
+	if err := ioutil.WriteFile("./errors.csv", errors.Bytes(), 0644); err != nil {
 		panic(err)
 	}
 

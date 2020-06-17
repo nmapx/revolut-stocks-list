@@ -31,24 +31,31 @@ func TestExtract(t *testing.T) {
 	whT := "QWERTYUIOPASDFGHJKLZXCVBNM"
 	whN := ""
 
-	expected = `WAB,WABTEC Corpor
-WBA,Walgreens Boot:
-WMT,Walmart
-DIS,Walt Disney
-WM,Waste Managen
-W,Wayfair
-WB,Weibo
-WFC,Wells Fargo
-WELL,Welltower
-WEN,Wendy's Compal
-WDC,Western Digital
-WU,Western Union
-WRK,WestRock
+	expected = `SCCO,Southern Copper
+HEI,Heico
+SIRI,Sirius XM
+HES,Hess Corporation
+COLD,Americold Realty Trus
+NRG,NRG Energy
+HFC,HollyFrontier
+SGMO,Sangamo Therapeutic
+AZO,AutoZone
+HGV,Hilton Grand Vacation
 WEX,WEX
-WY,Weyerhaeuser C
-WLL,Whiting PetroleL
+NUE,Nucor
+SENS,Senseonics Holdings
+DAN,Dana Holding
+STLD,Steel Dynamics
+AMTD,TD Ameritrade
+DNKN,Dunkin' Brands Group
+EQNR,Equinor
+NWL,Newell Rubbermaid
+FHN,First Horizon National...Corporation
+URBN,Urban Outfitters
+PSTG,Pure Storage
+SBH,Sally Beauty
 `
-	csv = extract(in, out, langs, whT, whN)
+	csv, _ = extract(in, out, langs, whT, whN)
 	if csv.String() != expected {
 		t.Errorf("Output CSV are not equal")
 	}
