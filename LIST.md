@@ -2,9 +2,9 @@
 
 ## Meta
 
-Updated on: **16.07.2020**
+Updated on: **03.08.2020**
 
-Number of rows: **753**
+Number of rows: **786**
 
 ## The list
 
@@ -103,7 +103,7 @@ Number of rows: **753**
 | SQ    | Square                                       | 
 | ARNC  | Arconic                                      | 
 | TEVA  | Teva Pharmaceutical...Industries             | 
-| PBR   | Petroleo Brasileiro S./                      | 
+| PBR   | Petroleo Brasileiro S.2                      | 
 | CVE   | Cenovus Energy Inc                           | 
 | CRM   | Salesforce                                   | 
 | GT    | Goodyear                                     | 
@@ -120,7 +120,6 @@ Number of rows: **753**
 | BIDU  | Baidu                                        | 
 | O     | Realty Income                                | 
 | AL    | Air Lease Corporation                        | 
-| DOCU  | DocuSign                                     | 
 | ZNH   | China Southern Airline                       | 
 | MGI   | MoneyGram                                    | 
 | GPS   | GAP                                          | 
@@ -134,9 +133,6 @@ Number of rows: **753**
 | ET    | Energy Transfer Equit                        | 
 | SPGI  | S&P                                          | 
 | ROKU  | Roku                                         | 
-| UMC   | United Microelectroni                        | 
-| KHC   | Kraft Heinz                                  | 
-| TXMD  | TherapeuticsMD                               | 
 | LMT   | Lockheed Martin                              | 
 | NET   | Cloudflare                                   | 
 | HPQ   | HP                                           | 
@@ -206,6 +202,7 @@ Number of rows: **753**
 | ADSK  | Autodesk                                     | 
 | REGI  | Renewable Energy Grc                         | 
 | CLDR  | Cloudera                                     | 
+| REGN  | Regeneron Pharmacei                          | 
 | AEO   | American Eagle Outfit                        | 
 | GME   | GameStop                                     | 
 | DXC   | DXC Technology                               | 
@@ -494,8 +491,13 @@ Number of rows: **753**
 | BAH   | Booz Allen Hamilton                          | 
 | UGP   | Ultrapar Participagoes                       | 
 | DFS   | Discover Financial Sel                       | 
+| LVGO  | Livongo Health                               | 
+| NKLA  | Nikola Corporation                           | 
+| NVAX  | Novavax                                      | 
+| TDOC  | Teladoc                                      | 
 | AG    | First Majestic Silver C                      | 
 | WMB   | Williams Companies                           | 
+| SEB   | Seaboard Corp.                               | 
 | FAST  | Fastenal Company                             | 
 | BDC   | Belden                                       | 
 | FLT   | FleetCor Technologie:                        | 
@@ -532,18 +534,23 @@ Number of rows: **753**
 | SKT   | Tanger Factory Outlet...Centers              | 
 | HD    | Home Depot                                   | 
 | AXTA  | Axalta Coating Syster                        | 
+| WTM   | White Mountains Insu...Group                 | 
 | NTES  | NetEase                                      | 
 | HWM   | Howmet Aerospace                             | 
 | BKR   | Baker Hughes                                 | 
 | IT    | Gartner                                      | 
+| CABO  | Cable One                                    | 
 | IDXX  | IDEXX Laboratories                           | 
 | ROST  | Ross Stores                                  | 
 | BLL   | Ball Corporation                             | 
 | MBT   | Mobile TeleSystems F                         | 
 | UNIT  | Uniti Group                                  | 
 | UCTT  | Ultra Clean Holdings                         | 
+| CVNA  | Carvana Co.                                  | 
+| DRI   | Darden Restaurants                           | 
 | REAL  | RealReal                                     | 
 | MDLZ  | Mondelez                                     | 
+| MDB   | MongoDB                                      | 
 | LX    | LexinFintech Holdings                        | 
 | ARMK  | Aramark                                      | 
 | MS    | Morgan Stanley                               | 
@@ -551,6 +558,7 @@ Number of rows: **753**
 | ETFC  | E*Trade                                      | 
 | DVA   | DaVita HealthCare Pa                         | 
 | PD    | Pagerduty                                    | 
+| EPAM  | EPAM Systems                                 | 
 | PH    | Parker-Hannifin                              | 
 | CERN  | Cerner                                       | 
 | BRX   | Brixmor Property Grot                        | 
@@ -562,10 +570,13 @@ Number of rows: **753**
 | JNPR  | Juniper Networks                             | 
 | VICI  | VICI Properties                              | 
 | RF    | Regions Financial                            | 
+| TEAM  | Atlassian Corporation                        | 
+| SE    | Sea Limited                                  | 
 | SU    | Suncor Energy                                | 
 | SWK   | Stanley Black & Decke                        | 
 | SWN   | Southwestern Energy                          | 
 | ICE   | Intercontinental Exchze                      | 
+| MKL   | Markel Corp.                                 | 
 | TECK  | Teck Resources                               | 
 | TV    | Grupo Televisa S.A.B                         | 
 | CROX  | Crocs                                        | 
@@ -582,15 +593,18 @@ Number of rows: **753**
 | MOS   | Mosaic Company The                           | 
 | ELAN  | Elanco Animal Health                         | 
 | IGT   | International Game...Technology              | 
+| FSLY  | Fastly                                       | 
 | XEL   | Xcel Energy                                  | 
 | CARR  | Carrier Global Corp                          | 
 | MPW   | Medical Properties Tr                        | 
+| CRSP  | CRISPR Therapeutics                          | 
 | YY    | YY                                           | 
 | IGMS  | IGM Biosciences                              | 
 | ULTA  | Ulta Beauty                                  | 
 | CTXS  | Citrix Systems                               | 
 | XGN   | Exagen                                       | 
 | ZBRA  | Zebra Technologies                           | 
+| IIPR  | Innovative Industrial...Properties           | 
 | ETRN  | Equitrans Midstream                          | 
 | PLAN  | Anaplan                                      | 
 | ANTM  | Anthem                                       | 
@@ -602,6 +616,7 @@ Number of rows: **753**
 | EFX   | Equifax                                      | 
 | BMRN  | Biomarin Pharmaceut                          | 
 | NPTN  | NeoPhotonics                                 | 
+| CCI   | Crown Castle                                 | 
 | SMAR  | Smartsheet                                   | 
 | RAD   | Rite Aid                                     | 
 | NLOK  | NortonLifeLock                               | 
@@ -611,6 +626,7 @@ Number of rows: **753**
 | GLW   | Corning                                      | 
 | TFC   | Truist Financial Corp                        | 
 | VIACA | ViacomCBS                                    | 
+| CHGG  | Chegg                                        | 
 | BILI  | Bilibili                                     | 
 | SOGO  | Sogou                                        | 
 | EIX   | Edison International                         | 
@@ -622,10 +638,12 @@ Number of rows: **753**
 | WYNN  | Wynn Resorts                                 | 
 | GNW   | Genworth Financial                           | 
 | ZTS   | Zoetis                                       | 
+| BIPC  | Brookfield Infrastructt...Corp               | 
 | SMFG  | Sumitomo Mitsui Fina...Group                 | 
 | VMW   | VMware                                       | 
 | RES   | RPC                                          | 
 | CHKP  | Check Point Software...Technologies          | 
+| PLNT  | Planet Fitness                               | 
 | PAYX  | Paychex                                      | 
 | AEP   | American Electric Pov                        | 
 | AFL   | Aflac                                        | 
@@ -637,6 +655,7 @@ Number of rows: **753**
 | CLVS  | Clovis Oncology                              | 
 | TROW  | T. Rowe Price                                | 
 | CLR   | Continental Resource:                        | 
+| CLX   | The Clorox Company                           | 
 | CMA   | Comerica                                     | 
 | CME   | CME Group (Class A)                          | 
 | CMG   | Chipotle Mexican Grill                       | 
@@ -646,6 +665,7 @@ Number of rows: **753**
 | VST   | Vistra Energy                                | 
 | LDOS  | Leidos Holdings                              | 
 | CNP   | CenterPoint Energy                           | 
+| CSGP  | CoStar Group                                 | 
 | ASML  | ASML Holding                                 | 
 | VTR   | Ventas                                       | 
 | COF   | Capital One                                  | 
@@ -658,11 +678,13 @@ Number of rows: **753**
 | AME   | Ametek                                       | 
 | AMH   | American Homes 4 Re                          | 
 | TSG   | Stars Group                                  | 
-| CHTR  | Charter Communicatit                         | 
+| CHTR  | Charter Communicatic                         | 
 | EVR   | Evercore                                     | 
+| TTD   | Trade Desk                                   | 
 | PLD   | Prologis                                     | 
 | GNTX  | Gentex                                       | 
 | EXC   | Exelon                                       | 
+| MRNA  | Moderna                                      | 
 | JKHY  | Jack Henry & Associa                         | 
 | APH   | Amphenol                                     | 
 | CDNS  | Cadence Design Syste                         | 
@@ -671,6 +693,7 @@ Number of rows: **753**
 | PNC   | PNC Financial                                | 
 | PBCT  | People's United Finan                        | 
 | KEYS  | Keysight Technologie:                        | 
+| SEDG  | SolarEdge Technologi                         | 
 | LOMA  | Loma Negra Compani...Industrial Argentina S. | 
 | PPG   | PPG Industries                               | 
 | TXN   | Texas Instruments                            | 
@@ -685,6 +708,7 @@ Number of rows: **753**
 | PSA   | Public Storage                               | 
 | HCA   | HCA Healthcare                               | 
 | AVB   | AvalonBay Communiti                          | 
+| NOW   | ServiceNow                                   | 
 | SCCO  | Southern Copper                              | 
 | HEI   | Heico                                        | 
 | SIRI  | Sirius XM                                    | 
@@ -692,20 +716,26 @@ Number of rows: **753**
 | COLD  | Americold Realty Trus                        | 
 | NRG   | NRG Energy                                   | 
 | HFC   | HollyFrontier                                | 
+| GWPH  | GW Pharmaceuticals \|                        | 
 | SGMO  | Sangamo Therapeutic                          | 
+| LMND  | Lemonade                                     | 
+| AYX   | Alteryx                                      | 
 | AZO   | AutoZone                                     | 
 | HGV   | Hilton Grand Vacation                        | 
+| NICE  | NICE Systems                                 | 
 | WEX   | WEX                                          | 
 | NUE   | Nucor                                        | 
 | DAN   | Dana Holding                                 | 
 | STLD  | Steel Dynamics                               | 
 | AMTD  | TD Ameritrade                                | 
+| NVR   | NVR                                          | 
 | DNKN  | Dunkin' Brands Group                         | 
 | EQNR  | Equinor                                      | 
 | NWL   | Newell Rubbermaid                            | 
 | FHN   | First Horizon National...Corporation         | 
 | URBN  | Urban Outfitters                             | 
 | PSTG  | Pure Storage                                 | 
+| BNTX  | BioNTech SE                                  | 
 | SBH   | Sally Beauty                                 | 
 | BRK.B | Berkshire Hathaway                           | 
 | ZM    | Zoom                                         | 
@@ -716,13 +746,16 @@ Number of rows: **753**
 | IBM   | IBM                                          | 
 | AIG   | AIG                                          | 
 | PG    | P&G                                          | 
+| DOCU  | DocuSign                                     |
+| UMC   | United Microelectroni                        | 
+| KHC   | Kraft Heinz                                  | 
+| TXMD  | TherapeuticsMD                               |
 | AM    | Antero Midstream Par                         | 
 | RACE  | Ferrari                                      | 
 | EQH   | AXA Equitable Holdin                         | 
 | UPS   | UPS                                          | 
 | SLCA  | US Silica Holdings                           | 
 | IVZ   | Invesco                                      | 
-| REGN  | Regeneron...Pharmaceuticals                  | 
 | OVV   | Encana Corporation                           | 
 | BSMX  | Grupo Financiero Sant...Mexico               | 
 | DE    | John Deere                                   | 
@@ -757,9 +790,10 @@ Number of rows: **753**
 | IP    | International Paper...Company                | 
 | SQM   | Chemical & Mining Co...Chile                 | 
 | IAG   | lamgold Corp                                 | 
+| RH    | Restoration Hardware...Holdings              | 
 | KEY   | KeyCorp.                                     | 
 | BVN   | Compaiiia de Minas...Buenaventura            | 
+| MTD   | Mettler-Toledo...International               | 
 | VFC   | VF Corporation                               | 
-| CCI   | Crown Castle                                 | 
 | CIG   | Companhia Energétic:...Minas Gerais          | 
 | SSSS  | Sutter Rock Capital                          | 
