@@ -2,9 +2,9 @@
 
 ## Meta
 
-Updated on: **03.08.2020**
+Updated on: **10.09.2020**
 
-Number of rows: **786**
+Number of rows: **788**
 
 ## The list
 
@@ -103,7 +103,7 @@ Number of rows: **786**
 | SQ    | Square                                       | 
 | ARNC  | Arconic                                      | 
 | TEVA  | Teva Pharmaceutical...Industries             | 
-| PBR   | Petroleo Brasileiro S.2                      | 
+| PBR   | Petroleo Brasileiro S./                      | 
 | CVE   | Cenovus Energy Inc                           | 
 | CRM   | Salesforce                                   | 
 | GT    | Goodyear                                     | 
@@ -120,6 +120,7 @@ Number of rows: **786**
 | BIDU  | Baidu                                        | 
 | O     | Realty Income                                | 
 | AL    | Air Lease Corporation                        | 
+| DOCU  | DocuSign                                     | 
 | ZNH   | China Southern Airline                       | 
 | MGI   | MoneyGram                                    | 
 | GPS   | GAP                                          | 
@@ -133,6 +134,9 @@ Number of rows: **786**
 | ET    | Energy Transfer Equit                        | 
 | SPGI  | S&P                                          | 
 | ROKU  | Roku                                         | 
+| UMC   | United Microelectroni                        | 
+| KHC   | Kraft Heinz                                  | 
+| TXMD  | TherapeuticsMD                               | 
 | LMT   | Lockheed Martin                              | 
 | NET   | Cloudflare                                   | 
 | HPQ   | HP                                           | 
@@ -196,13 +200,13 @@ Number of rows: **786**
 | DPZ   | Domino's Pizza                               | 
 | BSX   | Boston Scientific                            | 
 | OKE   | Oneok                                        | 
+| IVZ   | Invesco                                      | 
 | MU    | Micron Technology                            | 
 | COP   | ConocoPhillips                               | 
 | EGO   | Eldorado Gold Corpor:                        | 
 | ADSK  | Autodesk                                     | 
 | REGI  | Renewable Energy Grc                         | 
 | CLDR  | Cloudera                                     | 
-| REGN  | Regeneron Pharmacei                          | 
 | AEO   | American Eagle Outfit                        | 
 | GME   | GameStop                                     | 
 | DXC   | DXC Technology                               | 
@@ -537,6 +541,7 @@ Number of rows: **786**
 | WTM   | White Mountains Insu...Group                 | 
 | NTES  | NetEase                                      | 
 | HWM   | Howmet Aerospace                             | 
+| IP    | International Paper...Company                | 
 | BKR   | Baker Hughes                                 | 
 | IT    | Gartner                                      | 
 | CABO  | Cable One                                    | 
@@ -671,6 +676,7 @@ Number of rows: **786**
 | COF   | Capital One                                  | 
 | TPX   | Tempur Sealy                                 | 
 | COG   | Cabot Oil & Gas Corpc                        | 
+| BEPC  | Brookfield Renewable...Corporation           | 
 | DISH  | DISH Network                                 | 
 | ALL   | Allstate                                     | 
 | RNG   | RingCentral                                  | 
@@ -746,16 +752,12 @@ Number of rows: **786**
 | IBM   | IBM                                          | 
 | AIG   | AIG                                          | 
 | PG    | P&G                                          | 
-| DOCU  | DocuSign                                     |
-| UMC   | United Microelectroni                        | 
-| KHC   | Kraft Heinz                                  | 
-| TXMD  | TherapeuticsMD                               |
 | AM    | Antero Midstream Par                         | 
 | RACE  | Ferrari                                      | 
 | EQH   | AXA Equitable Holdin                         | 
 | UPS   | UPS                                          | 
 | SLCA  | US Silica Holdings                           | 
-| IVZ   | Invesco                                      | 
+| REGN  | Regeneron...Pharmaceuticals                  | 
 | OVV   | Encana Corporation                           | 
 | BSMX  | Grupo Financiero Sant...Mexico               | 
 | DE    | John Deere                                   | 
@@ -787,7 +789,6 @@ Number of rows: **786**
 | CI    | Cigna                                        | 
 | MUFG  | MUFJ Financial Group                         | 
 | ODP   | Office Depot                                 | 
-| IP    | International Paper...Company                | 
 | SQM   | Chemical & Mining Co...Chile                 | 
 | IAG   | lamgold Corp                                 | 
 | RH    | Restoration Hardware...Holdings              | 
