@@ -798,3 +798,37 @@ Number of rows: **788**
 | VFC   | VF Corporation                               | 
 | CIG   | Companhia Energétic:...Minas Gerais          | 
 | SSSS  | Sutter Rock Capital                          | 
+| ALB   | Albemarle Corporation                        | 
+| BUD   | Anheuser Busch Inbev NV                      | 
+| APPN  | Appian Corporation                           | 
+| ARCT  | Arcturus Therapeutics Holdings Inc           | 
+| ASAN  | Asana Inc                                    | 
+| AZN   | AstraZeneca PLC                              | 
+| AAXN  | Axon Enterprise Inc                          | 
+| BZUN  | Baozun Inc                                   | 
+| DXCM  | DexCom Inc                                   | 
+| FANG  | Diamondback Energy Inc                       | 
+| DIN   | Dine Brands Global Inc                       | 
+| ENPH  | Enphase Energy Inc                           | 
+| EXAS  | Exact Sciences Corporation                   | 
+| GSK   | GlaxoSmithKline plc                          | 
+| GMED  | Globus Medical Inc                           | 
+| ICPT  | Intercept Pharmaceuticals                    | 
+| FROG  | JFrog Ltd                                    | 
+| LOGI  | Logitech International SA                    | 
+| MSGS  | Madison Square Garden Sports Corp            | 
+| PLTR  | Palantir                                     | 
+| PENN  | Penn National Gaming Inc                     | 
+| RXT   | Rackspace Technology                         | 
+| RDFN  | Redfin Corporation                           | 
+| RKT   | Rocket Companies                             | 
+| SNOW  | Snowflake                                    | 
+| SUMO  | Sumo Logic Inc                               | 
+| TIMB  | TIM SA                                       | 
+| SMG   | The Scotts Miracle-Gro Company               | 
+| U     | Unity Software                               | 
+| VIR   | Vir Biotechnology Inc                        | 
+| VRM   | Vroom Inc                                    | 
+| WIX   | Wix.com Ltd                                  | 
+| XPEV  | Xpeng                                        | 
+| YETI  | YETI Holdings Inc                            | 
