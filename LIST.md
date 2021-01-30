@@ -2,20 +2,19 @@
 
 ## Meta
 
-Updated on: **10.12.2020**
+Updated on: **30.01.2021**
 
-Number of rows: **838**
+Number of rows: **835**
 
 ## The list
 
 | Ticker | Company name                                |
-|-------|----------------------------------------------| 
+|-------|----------------------------------------------|
 | A     | Agilent Technologies                         | 
 | AA    | Alcoa                                        | 
 | AAL   | American Airlines                            | 
 | AAP   | Advance Auto Parts                           | 
 | AAPL  | Apple                                        | 
-| AAXN  | Axon Enterprise Inc                          | 
 | ABBV  | AbbVie                                       | 
 | ABEV  | Ambev                                        | 
 | ABNB  | Airbnb Inc                                   | 
@@ -26,8 +25,8 @@ Number of rows: **838**
 | ADP   | Automatic Data...Processing                  | 
 | ADSK  | Autodesk                                     | 
 | AEO   | American Eagle Outfit                        | 
-| AEP   | American Electric Pov                        | 
-| AES   | AES Corporation The                          | 
+| AEP   | American Electric Pow                        | 
+| AES   | The AES Corporation                          | 
 | AFL   | Aflac                                        | 
 | AG    | First Majestic Silver C                      | 
 | AGNC  | AGNC Investment                              | 
@@ -41,7 +40,6 @@ Number of rows: **838**
 | ALLT  | Allot Communications                         | 
 | ALLY  | Ally Financial                               | 
 | ALXN  | Alexion Pharmaceutic                         | 
-| AM    | Antero Midstream Par LP                      | 
 | AMAT  | Applied Materials                            | 
 | AMC   | AMC                                          | 
 | AMD   | Advanced Micro Devic                         | 
@@ -82,6 +80,7 @@ Number of rows: **838**
 | AVGO  | Broadcom                                     | 
 | AVLR  | Avalara                                      | 
 | AXL   | American Axle &...Manufacturing              | 
+| AXON  | Axon Enterprise Inc                          | 
 | AXP   | American Express                             | 
 | AXTA  | Axalta Coating Syster                        | 
 | AYX   | Alteryx                                      | 
@@ -156,14 +155,14 @@ Number of rows: **838**
 | CDNS  | Cadence Design Syste                         | 
 | CERN  | Cerner                                       | 
 | CF    | CF Industries Holding:                       | 
-| CFG   | Citizens Financial Gro                       | 
+| CFG   | Citizens Financial Gro!                      | 
 | CG    | Carlyle Group                                | 
 | CGNX  | Cognex Corporation                           | 
 | CHGG  | Chegg                                        | 
 | CHKP  | Check Point Software...Technologies          | 
 | CHL   | China Mobile                                 | 
 | CHS   | Chico's FAS                                  | 
-| CHTR  | Charter Communicatit                         | 
+| CHTR  | Charter Communicatic                         | 
 | CHWY  | Chewy                                        | 
 | CI    | Cigna                                        | 
 | CIEN  | Ciena Corporation                            | 
@@ -191,16 +190,15 @@ Number of rows: **838**
 | COP   | ConocoPhillips                               | 
 | COST  | Costco Wholesale                             | 
 | COTY  | Coty                                         | 
-| CRCQQ | California Resources                         | 
 | CRM   | Salesforce                                   | 
 | CROX  | Crocs                                        | 
 | CRSP  | CRISPR Therapeutics                          | 
 | CRWD  | CrowdStrike                                  | 
 | CSCO  | Cisco                                        | 
 | CSGP  | CoStar Group                                 | 
-| CSX   | CSX                                          | 
+| CSX   | CsX                                          | 
 | CTAS  | Cintas                                       | 
-| CTSH  | Cognizant Technology...Solutions             | 
+| CTSH  | Cognizant Technolog...Solutions              | 
 | CTVA  | Corteva                                      | 
 | CTXS  | Citrix Systems                               | 
 | CVE   | Cenovus Energy Inc                           | 
@@ -237,7 +235,7 @@ Number of rows: **838**
 | DLTR  | Dollar Tree                                  | 
 | DNKN  | Dunkin' Brands Group                         | 
 | DOCU  | DocuSign                                     | 
-| DOW   | The Dow Chemical...Company                   | 
+| DOW   | The Dow Chemical Co                          | 
 | DPZ   | Domino's Pizza                               | 
 | DRE   | Duke Realty                                  | 
 | DRI   | Darden Restaurants                           | 
@@ -259,7 +257,7 @@ Number of rows: **838**
 | ELAN  | Elanco Animal Health                         | 
 | EMR   | Emerson                                      | 
 | ENIA  | Enersis Americas S.A....American             | 
-| ENLC  | EnLink Midstream LLC                         | 
+| ENLC  | EnLink Midstream LLC(                        | 
 | ENPH  | Enphase Energy Inc                           | 
 | EOG   | EOG Resources                                | 
 | EPAM  | EPAM Systems                                 | 
@@ -285,7 +283,6 @@ Number of rows: **838**
 | FANG  | Diamondback Energy                           | 
 | FAST  | Fastenal Company                             | 
 | FB    | Facebook                                     | 
-| FCAU  | Fiat Chrysler                                | 
 | FCX   | Freeport                                     | 
 | FDS   | FactSet Research Sys                         | 
 | FDX   | FedEx                                        | 
@@ -393,7 +390,7 @@ Number of rows: **838**
 | IGMS  | IGM Biosciences                              | 
 | IGT   | International Game...Technology              | 
 | IIPR  | Innovative Industrial...Properties           | 
-| ILMN  | Illumina                                     | 
+| ILMN  | lllumina                                     | 
 | IMGN  | ImmunoGen                                    | 
 | INCY  | Incyte                                       | 
 | INFN  | Infinera Corporation                         | 
@@ -404,7 +401,7 @@ Number of rows: **838**
 | INVH  | Invitation Homes                             | 
 | IP    | International Paper...Company                | 
 | IPG   | Interpublic Group of...Companies             | 
-| IQ    | iQlYl                                        | 
+| IQ    | iQIYI                                        | 
 | IRBT  | iRobot                                       | 
 | IRM   | Iron Mountain                                | 
 | ISBC  | Investors Bancorp                            | 
@@ -455,7 +452,8 @@ Number of rows: **838**
 | LNG   | Cheniere Energy                              | 
 | LOGI  | Logitech International                       | 
 | LOMA  | Loma Negra Compani...Industrial Argentina S. | 
-| LOW   | Lowe’s                                       | 
+| LOW   | Lowe's                                       | 
+| LP    | Antero Midstream Par                         | 
 | LPL   | LG Display                                   | 
 | LRCX  | Lam Research                                 | 
 | LSCC  | Lattice Semiconducto                         | 
@@ -469,7 +467,7 @@ Number of rows: **838**
 | LX    | LexinFintech Holdings                        | 
 | LXRX  | Lexicon Pharmaceutic                         | 
 | LYFT  | Lyft                                         | 
-| LYV   | Live Nation Entertainr                       | 
+| LYV   | Live Nation Entertainn                       | 
 | M     | Macy's                                       | 
 | MA    | Mastercard                                   | 
 | MAR   | Marriott                                     | 
@@ -488,7 +486,7 @@ Number of rows: **838**
 | MELI  | MercadoLibre                                 | 
 | MET   | Metlife                                      | 
 | MFA   | MFA Financial                                | 
-| MFG   | Mizuho Financial Grou                        | 
+| MFG   | Mizuho Financial Grot                        | 
 | MGI   | MoneyGram                                    | 
 | MGM   | MGM Resorts                                  | 
 | MIK   | Michaels Companies                           | 
@@ -526,7 +524,6 @@ Number of rows: **838**
 | NAVI  | Navient Corporation                          | 
 | NBEV  | New Age Beverage                             | 
 | NBIX  | Neurocrine Bioscience                        | 
-| NBL   | Noble Energy                                 | 
 | NCLH  | Norwegian Cruise Line...Holdings             | 
 | NDAQ  | Nasdaq OMX Group                             | 
 | NEE   | NextEra Energy                               | 
@@ -596,7 +593,6 @@ Number of rows: **838**
 | PD    | Pagerduty                                    | 
 | PDCE  | PDC Energy Inc                               | 
 | PDD   | Pinduoduo Inc                                | 
-| PE    | Parsley Energy                               | 
 | PEG   | Public Service Enterpr...Group               | 
 | PENN  | Penn National Gaming                         | 
 | PEP   | PepsiCo                                      | 
@@ -625,7 +621,7 @@ Number of rows: **838**
 | PTEN  | Patterson-UTI Energy                         | 
 | PTON  | Peloton Interactive                          | 
 | PWR   | Quanta Services                              | 
-| PXD   | Pioneer Natural Resot                        | 
+| PXD   | Pioneer Natural Resol                        | 
 | PYPL  | PayPal                                       | 
 | QCOM  | Qualcomm                                     | 
 | QD    | Qudian                                       | 
@@ -702,6 +698,7 @@ Number of rows: **838**
 | SSNC  | SS&C Technologies...Holdings                 | 
 | SSSS  | Sutter Rock Capital                          | 
 | STAY  | Extended Stay Americ                         | 
+| STLA  | Stellantis                                   | 
 | STLD  | Steel Dynamics                               | 
 | STNE  | StoneCo                                      | 
 | STT   | State Street                                 | 
@@ -754,7 +751,7 @@ Number of rows: **838**
 | TV    | Grupo Televisa S.A.B                         | 
 | TW    | Tradeweb Markets                             | 
 | TWLO  | Twilio                                       | 
-| TWO   | Two Harbors Investm                          | 
+| TWO   | Two Harbors Investme                         | 
 | TWOU  | 2U                                           | 
 | TWTR  | Twitter                                      | 
 | TXMD  | TherapeuticsMD                               | 
