@@ -1,4 +1,4 @@
-FROM golang:1.14-alpine
+FROM golang:1.15-alpine
 
 ARG HOST_UID
 ARG GO111MODULE
@@ -31,7 +31,7 @@ RUN adduser -D -u ${HOST_UID} -s /bin/bash docker && \
     chown -R docker:docker .
 USER docker
 
-RUN make -f Makefile.native get
+RUN go get
 
 ENTRYPOINT ["./docker/app/entrypoint.sh"]
 CMD ["run"]
