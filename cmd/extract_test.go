@@ -19,7 +19,6 @@ func TestUnify(t *testing.T) {
 
 func TestExtract(t *testing.T) {
 	_, filename, _, _ := runtime.Caller(0)
-	cacheDir := filepath.Dir(filename) + "/../cache"
 	rootDir := filepath.Dir(filename) + "/.."
 
 	var csv *bytes.Buffer
@@ -27,8 +26,8 @@ func TestExtract(t *testing.T) {
 	var in, langs []string
 	in = append(in, rootDir+"/example-input.jpg")
 	langs = append(langs, "eng")
-	out := cacheDir + "/test_output"
-	whT := "QWERTYUIOPASDFGHJKLZXCVBNM"
+	out := rootDir + "/output_test.csv"
+	whT := "QWERTYUIOPASDFGHJKLZXCVBNM."
 	whN := ""
 
 	expected = `JMIA,Jumia

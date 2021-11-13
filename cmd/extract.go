@@ -9,7 +9,10 @@ import (
 	"image/png"
 	"io/ioutil"
 	"log"
+	"os"
+	"path/filepath"
 	"regexp"
+	"runtime"
 	"strings"
 
 	"github.com/spf13/cobra"
@@ -42,13 +45,27 @@ func init() {
 	extractCmd.PersistentFlags().StringSliceVar(&input, "input", inputExample, "Input image eg. './input.jpg' - use multiple times for many files")
 	extractCmd.PersistentFlags().StringVar(&output, "output", "./output.csv", "Output file eg. './output.csv'")
 	extractCmd.PersistentFlags().StringSliceVar(&lang, "lang", langExample, "Languages used by the OCR - use multiple times for many languages")
-	extractCmd.PersistentFlags().StringVar(&whitelistTickers, "whitelist-tickers", "QWERTYUIOPASDFGHJKLZXCVBNM.", "Tickers whitelist eg. 'abcDEF123'")
+	extractCmd.PersistentFlags().StringVar(&whitelistTickers, "whitelist-tickers", "QWERTYUIOPASDFGHJKLZXCVBNM. ", "Tickers whitelist eg. 'abcDEF123'")
 	extractCmd.PersistentFlags().StringVar(&whitelistNames, "whitelist-names", "", "Companies names whitelist eg. 'abcDEF123'")
 }
 
 func extract(in []string, out string, languages []string, whT string, whN string) (csv *bytes.Buffer, errors *bytes.Buffer) {
 	csv = new(bytes.Buffer)
 	errors = new(bytes.Buffer)
+
+	_, filename, _, _ := runtime.Caller(0)
+	rootDir := fmt.Sprintf("%s/..", filepath.Dir(filename))
+
+	if fileExists(rootDir+"/output_errors.csv") {
+		if err := os.Remove(rootDir+"/output_errors.csv"); err != nil {
+			panic(err)
+		}
+	}
+	if fileExists(out) {
+		if err := os.Remove(out); err != nil {
+			panic(err)
+		}
+	}
 
 	log.Println("Script initialized, starting")
 	for _, element := range in {
@@ -71,18 +88,18 @@ func extract(in []string, out string, languages []string, whT string, whN string
 		log.Printf("Initializing OCR, setting languages %v", languages)
 		client := gosseract.NewClient()
 		defer client.Close()
-		client.SetImageFromBytes(buff.Bytes())
-		client.SetLanguage(languages...)
+		_ = client.SetImageFromBytes(buff.Bytes())
+		_ = client.SetLanguage(languages...)
 
 		log.Printf("Processing company names")
 		if len(whN) > 0 {
-			client.SetWhitelist(whN)
+			_ = client.SetWhitelist(whN)
 		}
 		ocrText, _ := client.Text()
 		ocrSliceNames := unify(strings.Split(ocrText, "\n"))
 
 		log.Printf("Processing tickers")
-		client.SetWhitelist(whT)
+		_ = client.SetWhitelist(whT)
 		ocrText, _ = client.Text()
 		ocrSliceTickers := unify(strings.Split(ocrText, "\n"))
 
@@ -104,20 +121,20 @@ func extract(in []string, out string, languages []string, whT string, whN string
 			} else if state == 1 {
 				matchedNames, _ := regexp.MatchString(`^[A-Z\d]+[a-z]{2,}.*$`, ocrSliceNames[i])
 				if matchedNames {
-					row = row + "..." + ocrSliceNames[i]
+					row = fmt.Sprintf("%s...%s", row, ocrSliceNames[i])
 					state = 2
 					continue
 				}
 			}
 			splittedName := strings.Split(row, " ")
-			row = ocrSliceTickers[i] + "," + row
+			ticker := strings.Split(ocrSliceTickers[i], " ")[0]
+			row = fmt.Sprintf("%s,%s", ticker, row)
 
-
-			q, err := quote.Get(ocrSliceTickers[i])
+			q, err := quote.Get(ticker)
 			if err != nil || q == nil || !strings.Contains(strings.ToLower(q.ShortName), strings.ToLower(splittedName[0])) {
-				errors.WriteString(row + "\n")
+				errors.WriteString(fmt.Sprintf("%s\n", row))
 			} else {
-				csv.WriteString(row + "\n")
+				csv.WriteString(fmt.Sprintf("%s\n", row))
 			}
 
 			row = ""
@@ -132,7 +149,7 @@ func extract(in []string, out string, languages []string, whT string, whN string
 	if err := ioutil.WriteFile(out, csv.Bytes(), 0644); err != nil {
 		panic(err)
 	}
-	if err := ioutil.WriteFile("./errors.csv", errors.Bytes(), 0644); err != nil {
+	if err := ioutil.WriteFile(rootDir + "/output_errors.csv", errors.Bytes(), 0644); err != nil {
 		panic(err)
 	}
 
@@ -149,4 +166,12 @@ func unify(slice []string) (result []string) {
 		result = append(result, value)
 	}
 	return
+}
+
+func fileExists(filename string) bool {
+	info, err := os.Stat(filename)
+	if os.IsNotExist(err) {
+		return false
+	}
+	return !info.IsDir()
 }

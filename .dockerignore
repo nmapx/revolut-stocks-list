@@ -6,8 +6,6 @@
 vendor/
 binary
 *.csv
+!list.csv
 *.jpg
 !example-input.jpg
-
-cache/*
-!cache/.gitkeep
